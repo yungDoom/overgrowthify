@@ -1,0 +1,37 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="137.41" t1="-47.0578" t2="125.627" s0="0.274557" s1="0.880331" s2="0.391897" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="14337" version="1">
+        <parameters />
+        <Group t0="137.41" t1="-47.0578" t2="125.627" s0="0.264547" s1="0.870329" s2="0.381857" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="14336" version="1">
+            <parameters />
+            <Group t0="137.41" t1="-47.0578" t2="125.627" s0="0.254537" s1="0.860327" s2="0.371862" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="14335" version="1">
+                <parameters />
+                <Group t0="137.423" t1="-47.0578" t2="125.627" s0="0.244528" s1="0.850324" s2="0.335897" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="14333" version="1">
+                    <parameters />
+                    <Group t0="137.423" t1="-47.0578" t2="125.627" s0="0.234518" s1="0.840326" s2="0.325895" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="14331" version="1">
+                        <parameters />
+                        <EnvObject t0="137.376" t1="-47.1413" t2="125.632" s0="0.140314" s1="0.245631" s2="0.140314" q0="-0.105175" q1="-0.994464" q2="0" q3="0" euler_x="-3.14159" euler_y="0" euler_z="2.93086" id="14324" color_r="0.0509804" color_g="0.023222" color_b="0.00819685" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/pillar.xml">
+                            <parameters />
+                        </EnvObject>
+                        <EnvObject t0="137.456" t1="-46.7552" t2="125.632" s0="0.851167" s1="1.0689" s2="0.799539" q0="-0.105175" q1="-0.994464" q2="0" q3="0" euler_x="-3.14159" euler_y="0" euler_z="2.93086" id="14326" color_r="0.360784" color_g="0.222962" color_b="0.191003" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+                            <parameters />
+                        </EnvObject>
+                        <EnvObject t0="137.456" t1="-46.7629" t2="125.627" s0="0.310571" s1="0.592956" s2="0.302962" q0="-0.987883" q1="0.104479" q2="-0.114208" q3="-0.0120786" euler_x="-3.14159" euler_y="-0.2302" euler_z="-0.210742" id="14328" color_r="0.317647" color_g="0.264052" color_b="0.251626" overbright="0" type_file="Data/Objects/therium/rope/rope around stump.xml">
+                            <parameters />
+                        </EnvObject>
+                        <EnvObject t0="137.438" t1="-46.8624" t2="125.628" s0="0.199825" s1="0.263333" s2="0.199825" q0="-0.105175" q1="-0.994464" q2="0" q3="0" euler_x="-3.14159" euler_y="0" euler_z="2.93086" id="14329" color_r="0.305882" color_g="0.305879" color_b="0.305879" overbright="0" type_file="Data/Objects/therium/rope/rope around stump.xml">
+                            <parameters />
+                        </EnvObject>
+                        <EnvObject t0="137.435" t1="-46.8741" t2="125.628" s0="0.199825" s1="0.263333" s2="0.199825" q0="0.425384" q1="-0.0449889" q2="0.898892" q3="0.0950669" euler_x="0" euler_y="-0.884033" euler_z="2.93086" id="14330" color_r="0.305882" color_g="0.305879" color_b="0.305879" overbright="0" type_file="Data/Objects/therium/rope/rope around stump.xml">
+                            <parameters />
+                        </EnvObject>
+                    </Group>
+                </Group>
+                <EnvObject t0="137.322" t1="-47.2438" t2="125.631" s0="0.695821" s1="1.39677" s2="0.783013" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14334" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Clamp.xml">
+                    <parameters />
+                </EnvObject>
+            </Group>
+        </Group>
+    </Group>
+</ActorObjects>

@@ -1,0 +1,75 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="-3.83798" t1="-39.365" t2="-68.6583" s0="0.386696" s1="1.04928" s2="0.486181" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14898" version="1">
+        <parameters />
+        <Group t0="-3.83798" t1="-39.365" t2="-68.6583" s0="0.376696" s1="1.03927" s2="0.476187" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14908" version="1">
+            <parameters />
+            <Group t0="-3.83798" t1="-39.365" t2="-68.6583" s0="0.366696" s1="1.02928" s2="0.466192" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14905" version="1">
+                <parameters />
+                <Group t0="-3.83798" t1="-39.318" t2="-68.6454" s0="0.356695" s1="0.925291" s2="0.43038" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14903" version="1">
+                    <parameters />
+                    <Group t0="-3.83298" t1="-39.318" t2="-68.6559" s0="0.281574" s1="0.915289" s2="0.399343" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14901" version="1">
+                        <parameters />
+                        <Group t0="-3.83298" t1="-39.318" t2="-68.6429" s0="0.271573" s1="0.905287" s2="0.363378" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14899" version="1">
+                            <parameters />
+                            <Group t0="-3.83298" t1="-39.318" t2="-68.6429" s0="0.261573" s1="0.895284" s2="0.353376" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14897" version="1">
+                                <parameters />
+                                <EnvObject t0="-3.84497" t1="-39.429" t2="-68.7045" s0="0.140314" s1="0.245631" s2="0.140314" q0="0.0743698" q1="0.703192" q2="0.0743698" q3="0.703192" euler_x="1.57089" euler_y="1.36015" euler_z="1.57089" id="14887" color_r="0.0509804" color_g="0.023222" color_b="0.00819685" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/pillar.xml">
+                                    <parameters />
+                                </EnvObject>
+                                <EnvObject t0="-3.84497" t1="-39.0429" t2="-68.6245" s0="0.851167" s1="1.0689" s2="0.799539" q0="0.0743698" q1="0.703192" q2="0.0743698" q3="0.703192" euler_x="1.57089" euler_y="1.36015" euler_z="1.57089" id="14888" color_r="0.360784" color_g="0.222962" color_b="0.191003" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+                                    <parameters />
+                                </EnvObject>
+                                <Decal t0="-3.83298" t1="-39.0247" t2="-68.6205" s0="0.251562" s1="0.251562" s2="0.251562" q0="0.0743698" q1="0.703192" q2="0.0743698" q3="0.703192" euler_x="1.57089" euler_y="1.36015" euler_z="1.57089" id="14889" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                                    <parameters />
+                                </Decal>
+                                <Decal t0="-3.83298" t1="-39.0247" t2="-68.6205" s0="0.251562" s1="0.251562" s2="0.251562" q0="0.54982" q1="0.54982" q2="-0.444645" q3="0.444644" euler_x="-3.14159" euler_y="1.36016" euler_z="1.5709" id="14890" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                                    <parameters />
+                                </Decal>
+                                <Decal t0="-3.83298" t1="-39.0247" t2="-68.6205" s0="0.251562" s1="0.251562" s2="0.251562" q0="0.54982" q1="-0.549819" q2="0.444644" q3="0.444644" euler_x="3.14159" euler_y="-1.36015" euler_z="-1.57088" id="14891" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                                    <parameters />
+                                </Decal>
+                                <Decal t0="-3.83298" t1="-39.0247" t2="-68.6205" s0="0.251562" s1="0.251562" s2="0.251562" q0="0.777562" q1="0" q2="0" q3="0.628823" euler_x="1.78155" euler_y="0" euler_z="0" id="14892" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                                    <parameters />
+                                </Decal>
+                                <Decal t0="-3.83298" t1="-39.0247" t2="-68.6205" s0="0.251562" s1="0.251562" s2="0.251562" q0="0" q1="0.777562" q2="-0.628823" q3="0" euler_x="-1.78155" euler_y="0" euler_z="3.14159" id="14893" type_file="Data/Objects/Decals/flame_base.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                                    <parameters />
+                                </Decal>
+                                <EnvObject t0="-3.84097" t1="-39.1501" t2="-68.6425" s0="0.199825" s1="0.263333" s2="0.199825" q0="0.0743698" q1="0.703192" q2="0.0743698" q3="0.703192" euler_x="1.57089" euler_y="1.36015" euler_z="1.57089" id="14894" color_r="0.305882" color_g="0.305879" color_b="0.305879" overbright="0" type_file="Data/Objects/therium/rope/rope around stump.xml">
+                                    <parameters />
+                                </EnvObject>
+                                <EnvObject t0="-3.84097" t1="-39.1618" t2="-68.6455" s0="0.199825" s1="0.263333" s2="0.199825" q0="0.334821" q1="0.0990344" q2="-0.936405" q3="-0.0354106" euler_x="-0.269887" euler_y="0.668797" euler_z="2.97173" id="14895" color_r="0.305882" color_g="0.305879" color_b="0.305879" overbright="0" type_file="Data/Objects/therium/rope/rope around stump.xml">
+                                    <parameters />
+                                </EnvObject>
+                                <EnvObject t0="-3.83998" t1="-39.0506" t2="-68.6245" s0="0.310571" s1="0.592956" s2="0.302962" q0="0.617782" q1="-0.0824186" q2="0.779296" q3="-0.0653369" euler_x="-0.753208" euler_y="-1.26003" euler_z="-2.41292" id="14896" color_r="0.317647" color_g="0.264052" color_b="0.251626" overbright="0" type_file="Data/Objects/therium/rope/rope around stump.xml">
+                                    <parameters />
+                                </EnvObject>
+                            </Group>
+                        </Group>
+                        <EnvObject t0="-3.84398" t1="-39.5315" t2="-68.7585" s0="0.695821" s1="1.39677" s2="0.783013" q0="0" q1="0.707109" q2="0" q3="-0.707109" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="14900" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/SmallProps/Rope/Rope_Clamp.xml">
+                            <parameters />
+                        </EnvObject>
+                    </Group>
+                    <Decal t0="-3.83798" t1="-39.0412" t2="-68.6085" s0="0.24515" s1="0.24515" s2="0.245151" q0="0" q1="0.382684" q2="0" q3="0.923882" euler_x="0" euler_y="0.785402" euler_z="0" id="14902" type_file="Data/Objects/Decals/light_square.xml" color_r="1" color_g="0.541176" color_b="0" overbright="10.124">
+                        <parameters />
+                    </Decal>
+                </Group>
+                <Decal t0="-3.84497" t1="-39.7362" t2="-68.7645" s0="0.200485" s1="0.276916" s2="0.243705" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="14904" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.141176" color_g="0.141175" color_b="0.141175" overbright="0">
+                    <parameters />
+                </Decal>
+            </Group>
+            <EnvObject t0="-3.84198" t1="-39.5288" t2="-68.8195" s0="0.690434" s1="0.690434" s2="0.690434" q0="0" q1="0" q2="0.707107" q3="-0.707107" euler_x="0" euler_y="0" euler_z="-1.5708" id="14906" color_r="0.926142" color_g="0.890196" color_b="1" overbright="2.125" type_file="Data/Objects/Buildings/StoneWindow1.xml">
+                <parameters />
+            </EnvObject>
+        </Group>
+        <Hotspot t0="-3.83798" t1="-39.0409" t2="-68.5965" s0="0.0508528" s1="0.0508528" s2="0.0508528" q0="-0.703189" q1="-0.0743696" q2="0.703189" q3="0.0743695" euler_x="-1.57085" euler_y="1.36011" euler_z="1.57085" id="14910" type_file="Objects/Hotspots/fire_test_cheap.xml">
+            <parameters>
+                <parameter name="Fire Ribbons" type="int" val="4" />
+                <parameter name="Ignite Characters" type="int" val="1" />
+            </parameters>
+            <Connections />
+            <ConnectionsFrom />
+        </Hotspot>
+    </Group>
+</ActorObjects>
