@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<Object>
+	<Model>Data/Prototypes/OG/Models/ShipSails.obj</Model>
+	<ColorMap>Data/Prototypes/OG/Textures/ShipSails_Color_Cinderbreathe.tga</ColorMap>
+	<NormalMap>Data/Prototypes/OG/Textures/ShipSails_Norm.tga</NormalMap>
+  	<TranslucencyMap>Data/Prototypes/OG/Textures/ShipSails_Translucency.tga</TranslucencyMap>
+	<WindMap>Data/Prototypes/OG/Textures/ShipSails_Wind.tga</WindMap>
+  	<ShaderName>plant</ShaderName>
+    <MaterialPath>Data/Materials/wood.xml</MaterialPath>
+</Object>
