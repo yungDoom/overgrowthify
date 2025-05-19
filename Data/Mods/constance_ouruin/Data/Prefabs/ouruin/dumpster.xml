@@ -1,0 +1,148 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="2.47831" t1="-52.7405" t2="25.9913" s0="4.39275" s1="1.97055" s2="2.39359" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="16832" version="1">
+        <parameters />
+        <EnvObject t0="4.49614" t1="-53.0174" t2="26.972" s0="1" s1="1" s2="1" q0="0" q1="-0.24049" q2="0" q3="0.970652" euler_x="0" euler_y="-0.485741" euler_z="0" id="8777" color_r="1" color_g="0.855179" color_b="0.831373" overbright="0" type_file="Data/Objects/Environment/LitterLoads/StoneBlock.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.93987" t1="-52.7587" t2="25.4579" s0="1" s1="1" s2="1" q0="-0.284217" q1="-0.632853" q2="0.426159" q3="0.580609" euler_x="-1.52777" euler_y="-0.515117" euler_z="1.76065" id="9024" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.7743" t1="-52.8259" t2="26.0161" s0="1" s1="1" s2="1" q0="-0.114535" q1="0.557815" q2="-0.379759" q3="0.729045" euler_x="-1.03406" euler_y="0.813001" euler_z="-1.44058" id="9041" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/PostRound1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.13413" t1="-52.8571" t2="26.1199" s0="0.73746" s1="0.73746" s2="0.73746" q0="0.743309" q1="-0.434777" q2="0.0556308" q3="0.505334" euler_x="2.17295" euler_y="-0.549331" euler_z="-0.764151" id="9042" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.66779" t1="-52.9371" t2="25.9646" s0="0.73746" s1="0.73746" s2="0.73746" q0="0.753093" q1="-0.619125" q2="-0.212428" q3="0.0663801" euler_x="2.75856" euler_y="0.24006" euler_z="-1.42292" id="9043" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/Post1.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="2.1782" t1="-52.7453" t2="25.4604" s0="1" s1="1" s2="1" q0="0.774989" q1="-0.175682" q2="0.0492049" q3="0.605068" euler_x="1.84902" euler_y="-0.293042" euler_z="-0.224104" id="9044" color_r="1" color_g="0.855179" color_b="0.831373" overbright="0" type_file="Data/Objects/Environment/LitterLoads/StoneBlockPile.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="3.12007" t1="-52.9929" t2="26.3538" s0="1" s1="1" s2="1" q0="0.457469" q1="-0.119134" q2="-0.278021" q3="-0.836202" euler_x="-0.901317" euler_y="0.470814" euler_z="0.410885" id="9045" color_r="1" color_g="0.855179" color_b="0.831373" overbright="0" type_file="Data/Objects/Environment/LitterLoads/StoneBlockPile.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject t0="1.13967" t1="-52.7031" t2="25.5732" s0="1" s1="1" s2="1" q0="0.141623" q1="0.605427" q2="0.732241" q3="-0.277886" euler_x="1.29712" euler_y="-0.575058" euler_z="-2.85716" id="9046" color_r="1" color_g="0.855179" color_b="0.831373" overbright="0" type_file="Data/Objects/Environment/LitterLoads/StoneBlockPile.xml">
+            <parameters />
+        </EnvObject>
+        <Group t0="2.27787" t1="-52.7405" t2="25.9913" s0="3.90903" s1="1.96055" s2="2.25482" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9055" version="1">
+            <parameters />
+            <Group t0="0.42377" t1="-52.4868" t2="26.0898" s0="0.165574" s1="1.41385" s2="1.70616" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9056" version="1">
+                <parameters />
+                <EnvObject t0="0.42597" t1="-52.4422" t2="26.0815" s0="0.836811" s1="0.405681" s2="0.639504" q0="0.508247" q1="-0.491615" q2="0.491615" q3="0.508247" euler_x="1.57082" euler_y="-1.53755" euler_z="0" id="9057" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="0.42377" t1="-51.855" t2="26.0898" s0="0.285815" s1="0.143051" s2="0.31678" q0="0.491615" q1="-0.491615" q2="-0.508247" q3="0.508247" euler_x="1.53753" euler_y="0" euler_z="-1.5708" id="9058" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="0.42377" t1="-53.1187" t2="26.0898" s0="0.285815" s1="0.143051" s2="0.31678" q0="-0.508247" q1="0.508247" q2="-0.491615" q3="0.491615" euler_x="-1.60406" euler_y="0" euler_z="-1.5708" id="9059" color_r="0.188235" color_g="0.188233" color_b="0.188233" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+            </Group>
+            <Group t0="2.29417" t1="-53.1665" t2="26.0128" s0="3.6795" s1="0.20288" s2="1.72475" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9060" version="1">
+                <parameters />
+                <EnvObject t0="1.40504" t1="-53.1625" t2="26.0318" s0="0.7979" s1="0.382604" s2="0.743747" q0="0.999862" q1="0" q2="-0.0166322" q3="0" euler_x="3.14159" euler_y="0.0332659" euler_z="0" id="9061" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="3.169" t1="-53.1635" t2="25.9821" s0="0.789216" s1="0.379419" s2="0.737791" q0="0" q1="0.999862" q2="0" q3="-0.0166322" euler_x="3.14159" euler_y="-0.0332659" euler_z="3.14159" id="9062" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.29229" t1="-53.1665" t2="26.0055" s0="0.325868" s1="0.552808" s2="0.275284" q0="0.707009" q1="0.0117607" q2="-0.0117608" q3="0.707009" euler_x="1.5708" euler_y="0.033266" euler_z="0" id="9063" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.30953" t1="-53.1648" t2="26.7948" s0="0.269559" s1="0.28391" s2="0.298764" q0="0.491615" q1="0.508247" q2="-0.508247" q3="0.491615" euler_x="-1.57082" euler_y="1.53755" euler_z="3.14159" id="9064" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.26057" t1="-53.1648" t2="25.2249" s0="0.269559" s1="0.283339" s2="0.298757" q0="-0.491615" q1="0.508247" q2="0.508247" q3="0.491615" euler_x="1.57082" euler_y="1.53755" euler_z="3.14159" id="9065" color_r="0.188235" color_g="0.188233" color_b="0.188233" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="0.542095" t1="-53.1665" t2="26.0752" s0="0.325881" s1="0.635636" s2="0.275277" q0="0.491615" q1="-0.491615" q2="-0.508247" q3="0.508247" euler_x="1.53753" euler_y="0" euler_z="-1.5708" id="9066" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="4.03158" t1="-53.1665" t2="25.9534" s0="0.325868" s1="0.637299" s2="0.275284" q0="-0.0117608" q1="-0.707009" q2="-0.707009" q3="0.0117607" euler_x="1.5708" euler_y="-0.033266" euler_z="3.14159" id="9067" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+            </Group>
+            <Group t0="2.30946" t1="-52.4807" t2="26.9406" s0="3.90085" s1="1.43269" s2="0.214628" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9068" version="1">
+                <parameters />
+                <EnvObject t0="1.37554" t1="-52.4422" t2="26.9676" s0="0.836811" s1="0.405681" s2="0.639505" q0="0.707009" q1="0.0117607" q2="-0.0117608" q3="0.707009" euler_x="1.5708" euler_y="0.033266" euler_z="0" id="9069" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="3.23581" t1="-52.4422" t2="26.9065" s0="0.836811" s1="0.402299" s2="0.639505" q0="-0.0117607" q1="0.707009" q2="-0.707009" q3="-0.0117608" euler_x="-1.5708" euler_y="-0.033266" euler_z="3.14159" id="9070" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.307" t1="-52.4893" t2="26.9407" s0="0.345519" s1="0.425322" s2="0.291884" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9071" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.3094" t1="-51.855" t2="26.9389" s0="0.285814" s1="0.299035" s2="0.316781" q0="-0.0117607" q1="0.0117608" q2="-0.707009" q3="0.707009" euler_x="-0.033266" euler_y="0" euler_z="-1.5708" id="9072" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.3094" t1="-53.1187" t2="26.9389" s0="0.285814" s1="0.299035" s2="0.316781" q0="-0.707009" q1="0.707009" q2="0.0117608" q3="-0.0117607" euler_x="3.10833" euler_y="0" euler_z="-1.5708" id="9073" color_r="0.188235" color_g="0.188233" color_b="0.188233" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="0.450845" t1="-52.4807" t2="27.0024" s0="0.345519" s1="0.529826" s2="0.291884" q0="0" q1="-0.695248" q2="0" q3="0.71877" euler_x="0" euler_y="-1.53753" euler_z="0" id="9074" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="4.15169" t1="-52.4807" t2="26.8793" s0="0.345519" s1="0.529826" s2="0.291884" q0="0" q1="-0.999862" q2="0" q3="0.0166322" euler_x="3.14159" euler_y="-0.0332659" euler_z="3.14159" id="9075" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+            </Group>
+            <Group t0="4.12624" t1="-52.4868" t2="25.9666" s0="0.165574" s1="1.41385" s2="1.70616" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9076" version="1">
+                <parameters />
+                <EnvObject t0="4.12841" t1="-52.4422" t2="25.9583" s0="0.836811" s1="0.405681" s2="0.639504" q0="0.508247" q1="-0.491615" q2="0.491615" q3="0.508247" euler_x="1.57082" euler_y="-1.53755" euler_z="0" id="9077" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="4.12624" t1="-51.855" t2="25.9666" s0="0.285815" s1="0.143051" s2="0.31678" q0="0.491615" q1="-0.491615" q2="-0.508247" q3="0.508247" euler_x="1.53753" euler_y="0" euler_z="-1.5708" id="9078" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="4.12624" t1="-53.1187" t2="25.9666" s0="0.285815" s1="0.143051" s2="0.31678" q0="-0.508247" q1="0.508247" q2="-0.491615" q3="0.491615" euler_x="-1.60406" euler_y="0" euler_z="-1.5708" id="9079" color_r="0.188235" color_g="0.188233" color_b="0.188233" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+            </Group>
+            <Group t0="2.24794" t1="-52.4807" t2="25.0918" s0="3.90085" s1="1.43269" s2="0.214628" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9080" version="1">
+                <parameters />
+                <EnvObject t0="1.31402" t1="-52.4422" t2="25.1188" s0="0.836811" s1="0.405681" s2="0.639505" q0="0.707009" q1="0.0117607" q2="-0.0117608" q3="0.707009" euler_x="1.5708" euler_y="0.033266" euler_z="0" id="9081" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="3.1743" t1="-52.4422" t2="25.0577" s0="0.836811" s1="0.402299" s2="0.639505" q0="-0.0117607" q1="0.707009" q2="-0.707009" q3="-0.0117608" euler_x="-1.5708" euler_y="-0.033266" euler_z="3.14159" id="9082" color_r="0.564706" color_g="0.5647" color_b="0.5647" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/concretesolid/platform.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.24549" t1="-52.4893" t2="25.0919" s0="0.345519" s1="0.425322" s2="0.291884" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9083" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.24788" t1="-51.855" t2="25.0902" s0="0.285814" s1="0.299035" s2="0.316781" q0="-0.0117607" q1="0.0117608" q2="-0.707009" q3="0.707009" euler_x="-0.033266" euler_y="0" euler_z="-1.5708" id="9084" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="2.24788" t1="-53.1187" t2="25.0902" s0="0.285814" s1="0.299035" s2="0.316781" q0="-0.707009" q1="0.707009" q2="0.0117608" q3="-0.0117607" euler_x="3.10833" euler_y="0" euler_z="-1.5708" id="9085" color_r="0.188235" color_g="0.188233" color_b="0.188233" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/post_corners.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="0.38933" t1="-52.4807" t2="25.1536" s0="0.345519" s1="0.529826" s2="0.291884" q0="0" q1="-0.695248" q2="0" q3="0.71877" euler_x="0" euler_y="-1.53753" euler_z="0" id="9086" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+                <EnvObject t0="4.09017" t1="-52.4807" t2="25.0305" s0="0.345519" s1="0.529826" s2="0.291884" q0="0" q1="-0.999862" q2="0" q3="0.0166322" euler_x="3.14159" euler_y="-0.0332659" euler_z="3.14159" id="9087" color_r="0.32549" color_g="0.325487" color_b="0.325487" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/rustedmetal/pillar.xml">
+                    <parameters />
+                </EnvObject>
+            </Group>
+            <EnvObject t0="2.26986" t1="-52.7131" t2="26.0085" s0="6.12827" s1="8.17424" s2="4.38577" q0="0" q1="0.0166322" q2="0" q3="0.999862" euler_x="0" euler_y="0.0332659" euler_z="0" id="9088" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/therium/ouruin/rubble.xml">
+                <parameters />
+            </EnvObject>
+            <Decal t0="2.30973" t1="-52.7509" t2="27.0196" s0="3.61801" s1="0.188889" s2="1.93146" q0="-0.0117608" q1="-0.707009" q2="-0.707009" q3="0.0117607" euler_x="1.5708" euler_y="-0.033266" euler_z="3.14159" id="9089" type_file="Data/Objects/Decals/crete_stains/leaky_rust.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                <parameters />
+            </Decal>
+            <Decal t0="2.30311" t1="-52.7509" t2="26.8201" s0="3.61801" s1="0.188889" s2="1.93146" q0="0.707009" q1="-0.0117608" q2="-0.0117606" q3="-0.707009" euler_x="-1.5708" euler_y="0.0332658" euler_z="0" id="9090" type_file="Data/Objects/Decals/crete_stains/leaky_rust.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                <parameters />
+            </Decal>
+            <Decal t0="2.24966" t1="-52.751" t2="25.2123" s0="3.61801" s1="0.188889" s2="1.93146" q0="-0.0117608" q1="-0.707009" q2="-0.707009" q3="0.0117607" euler_x="1.5708" euler_y="-0.033266" euler_z="3.14159" id="9091" type_file="Data/Objects/Decals/crete_stains/leaky_rust.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                <parameters />
+            </Decal>
+            <Decal t0="2.24131" t1="-52.7509" t2="24.963" s0="3.61801" s1="0.188889" s2="1.93146" q0="0.707009" q1="-0.0117608" q2="-0.0117606" q3="-0.707009" euler_x="-1.5708" euler_y="0.0332658" euler_z="0" id="9092" type_file="Data/Objects/Decals/crete_stains/leaky_rust.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+                <parameters />
+            </Decal>
+        </Group>
+        <EnvObject t0="4.46563" t1="-53.0174" t2="26.6671" s0="1" s1="1" s2="1" q0="0" q1="0.0563517" q2="0" q3="0.998411" euler_x="0" euler_y="0.112763" euler_z="0" id="9096" color_r="1" color_g="0.855179" color_b="0.831373" overbright="0" type_file="Data/Objects/Environment/LitterLoads/StoneBlock.xml">
+            <parameters />
+        </EnvObject>
+    </Group>
+</ActorObjects>

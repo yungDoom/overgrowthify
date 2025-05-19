@@ -1,0 +1,13 @@
+<?xml version="2.0" ?>
+<Type>saved</Type>
+<ActorObjects>
+    <Group t0="158.549" t1="-71.5114" t2="124.457" s0="0.200002" s1="0.210943" s2="0.202734" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="16187" version="1">
+        <parameters />
+        <EnvObject t0="158.549" t1="-71.5055" t2="124.457" s0="0.185246" s1="0.26496" s2="0.185246" q0="0.0154222" q1="-0.457191" q2="-0.0111405" q3="0.88917" euler_x="0.0645946" euler_y="-0.948767" euler_z="-0.0582341" id="16184" color_r="0.87451" color_g="0" color_b="0" overbright="0" type_file="Data/Objects/therium/candle.xml">
+            <parameters />
+        </EnvObject>
+        <Decal t0="158.546" t1="-71.5114" t2="124.457" s0="0.0838191" s1="0.20094" s2="0.0827587" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="16185" type_file="Data/Objects/Decals/light_round.xml" color_r="0.164706" color_g="0" color_b="0" overbright="0">
+            <parameters />
+        </Decal>
+    </Group>
+</ActorObjects>

@@ -30,13 +30,14 @@
     <parameter name="Custom Shader" type="string" val="#SHADOW_POINT_LIGHTS #CHARACTER_DECALS #AMBIENT_LIGHT_DECALS" />
     <parameter name="Fog amount" type="float" val="1" />
     <parameter name="GPU Particle Field" type="string" val="" />
-    <parameter name="HDR Black point" type="float" val="0.008" />
-    <parameter name="HDR Bloom multiplier" type="float" val="0.27778" />
-    <parameter name="HDR White point" type="float" val="0.34568" />
+    <parameter name="HDR Black point" type="float" val="0" />
+    <parameter name="HDR Bloom multiplier" type="float" val="0.05597" />
+    <parameter name="HDR White point" type="float" val="0.23881" />
     <parameter name="Level Boundaries" type="int" val="1" />
     <parameter name="Load Tip" type="string" val="" />
     <parameter name="Objectives" type="string" val="destroy_all" />
     <parameter name="Saturation" type="float" val="1.07407" />
+    <parameter name="Shared Camera" type="int" val="0" />
     <parameter name="Sky Brightness" type="float" val="0.01" />
     <parameter name="Sky Rotation" type="float" val="-209" />
     <parameter name="Sky Tint" type="string" val="92, 128, 255" />
@@ -49,7 +50,7 @@
     <RayToSun r0="-0.0869436" r1="0.995285" r2="0.0430051" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="5.83496" t1="-4.63956" t2="-6.21215" s0="1" s1="1" s2="1" q0="0.0136733" q1="-0.981871" q2="0.0779451" q3="0.172243" euler_x="-2.98316" euler_y="-0.347312" euler_z="3.14159" id="0">
+    <CameraObject t0="2.29507" t1="-5.56327" t2="10.4836" s0="1" s1="1" s2="1" q0="-0.178184" q1="-0.2545" q2="0.0477691" q3="-0.949315" euler_x="0.371077" euler_y="0.523859" euler_z="0" id="0">
         <parameters />
     </CameraObject>
     <EnvObject t0="3.81014" t1="-1.09578" t2="14.119" s0="1.45858" s1="1.06749" s2="1.19068" q0="0" q1="0.703807" q2="0" q3="0.710392" euler_x="0" euler_y="1.5616" euler_z="0" id="1" color_r="1" color_g="0.99999" color_b="0.99999" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door.xml">
@@ -299,7 +300,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="3.92538" t1="-8.52649" t2="8.79976" s0="0.907747" s1="2.88256" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="105" type_file="Data/Objects/Hotspots/ambient_sound.xml">
+    <Hotspot t0="3.92538" t1="-3.92801" t2="8.79977" s0="0.907747" s1="0.58332" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="105" type_file="Data/Objects/Hotspots/ambient_sound.xml">
         <parameters>
             <parameter name="Delay Max" type="float" val="10" />
             <parameter name="Delay Min" type="float" val="3" />
@@ -312,7 +313,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="3.13047" t1="-12.8563" t2="8.68126" s0="0.907747" s1="7.01835" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="106" type_file="Data/Objects/Hotspots/ambient_sound.xml">
+    <Hotspot t0="3.13047" t1="-1.78657" t2="8.68126" s0="0.907747" s1="1.48348" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="106" type_file="Data/Objects/Hotspots/ambient_sound.xml">
         <parameters>
             <parameter name="Delay Max" type="float" val="10" />
             <parameter name="Delay Min" type="float" val="3" />
@@ -325,7 +326,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="3.70015" t1="-7.07907" t2="8.86152" s0="0.907747" s1="0.0990262" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="107" type_file="Data/Objects/Hotspots/ambient_sound.xml">
+    <Hotspot t0="3.70015" t1="-7.22963" t2="8.86152" s0="0.907747" s1="0.0990262" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="107" type_file="Data/Objects/Hotspots/ambient_sound.xml">
         <parameters>
             <parameter name="Delay Max" type="float" val="10" />
             <parameter name="Delay Min" type="float" val="3" />
@@ -400,7 +401,7 @@
     <DynamicLightObject t0="3.82814" t1="-5.70146" t2="13.4557" s0="15.7437" s1="15.7437" s2="15.7437" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="156" color_r="0.223529" color_g="0.0785013" color_b="0" overbright="0">
         <parameters />
     </DynamicLightObject>
-    <Hotspot t0="3.8049" t1="19.5537" t2="8.77758" s0="0.726173" s1="7.28063" s2="1.15144" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="157" type_file="Data/Objects/Hotspots/emitter.xml">
+    <Hotspot t0="3.8049" t1="19.5539" t2="8.77756" s0="0.726184" s1="7.28074" s2="1.15146" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="157" type_file="Data/Objects/Hotspots/emitter.xml">
         <parameters>
             <parameter name="Type" type="string" val="Dripping Water" />
         </parameters>
@@ -773,7 +774,7 @@
     <Decal t0="8.30566" t1="-2.46375" t2="-9.32879" s0="1.68314" s1="2.10395" s2="0.786476" q0="-0.556524" q1="-0.200605" q2="-0.140626" q3="0.793891" euler_x="-1.2228" euler_y="-0.49501" euler_z="0" id="313" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="3.84187" t1="-2.74491" t2="-5.01148" s0="0.789243" s1="0.349804" s2="9.43922" q0="0.0319766" q1="-0.00752926" q2="-0.000240873" q3="0.99946" euler_x="0.0639732" euler_y="-0.0150355" euler_z="-0.000963115" id="314" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
+    <Decal t0="3.84187" t1="-2.74491" t2="-5.01148" s0="0.789243" s1="0.349804" s2="9.43922" q0="0.0319766" q1="-0.00752926" q2="-0.000240873" q3="0.99946" euler_x="0.0639731" euler_y="-0.0150355" euler_z="-0.000963115" id="314" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="0.382224" t1="-4.49621" t2="-13.4323" s0="5.95647" s1="1.25584" s2="0.856411" q0="0.490628" q1="0.871369" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="2.11597" id="316" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
@@ -995,7 +996,7 @@
                 <EnvObject t0="7.03443" t1="-7.07539" t2="-3.59208" s0="0.0605626" s1="0.0992177" s2="0.0605626" q0="-0.330516" q1="0" q2="0.943798" q3="0" euler_x="0" euler_y="0.673698" euler_z="3.14159" id="365" color_r="0.0392157" color_g="0.0233133" color_b="0.0127643" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/ringthin.xml">
                     <parameters />
                 </EnvObject>
-                <EnvObject t0="7.03413" t1="-7.08486" t2="-3.59177" s0="0.254814" s1="0.143594" s2="0.254814" q0="0" q1="-0.901076" q2="0" q3="0.433656" euler_x="3.14159" euler_y="-0.897089" euler_z="3.14159" id="366" color_r="0.145098" color_g="0.0992586" color_b="0.0688504" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/disk.xml">
+                <EnvObject t0="7.03413" t1="-7.08486" t2="-3.59177" s0="0.254814" s1="0.143594" s2="0.254814" q0="0" q1="-0.901076" q2="0" q3="0.433656" euler_x="3.14159" euler_y="-0.897089" euler_z="3.14159" id="366" color_r="0.0352941" color_g="0.0238944" color_b="0.0163322" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/disk.xml">
                     <parameters />
                 </EnvObject>
                 <EnvObject t0="7.03443" t1="-6.7928" t2="-3.59208" s0="0.0605626" s1="0.148827" s2="0.0605626" q0="0.943798" q1="0" q2="0.330516" q3="0" euler_x="3.14159" euler_y="-0.673698" euler_z="0" id="367" color_r="0.101961" color_g="0.0661435" color_b="0.0423837" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/ringthin.xml">
@@ -1166,7 +1167,7 @@
     <Decal t0="-1.1171" t1="-7.22287" t2="1.52097" s0="5.33507" s1="5.99306" s2="9.06722" q0="0" q1="-0.0115546" q2="0" q3="0.999933" euler_x="0" euler_y="-0.0231097" euler_z="0" id="446" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="5.32421" t1="-7.20419" t2="-5.82481" s0="0.321663" s1="0.428407" s2="2.41716" q0="-0.0839025" q1="0.395705" q2="-0.189695" q3="0.894647" euler_x="-0.419775" euler_y="0.742594" euler_z="-0.583384" id="447" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
+    <Decal t0="5.37277" t1="-7.20419" t2="-5.78066" s0="0.321663" s1="0.428407" s2="2.28589" q0="-0.0839025" q1="0.395705" q2="-0.189695" q3="0.894647" euler_x="-0.419775" euler_y="0.742594" euler_z="-0.583384" id="447" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="1.03266" t1="-6.51974" t2="1.33945" s0="1.27077" s1="2.23426" s2="2.78791" q0="-0.00586361" q1="-0.139333" q2="0.0416359" q3="0.989352" euler_x="-0.0241393" euler_y="-0.278809" euler_z="0.0875055" id="448" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.360784" color_g="0.360781" color_b="0.360781" overbright="0">
@@ -1323,7 +1324,7 @@
     <EnvObject t0="7.68581" t1="-6.16514" t2="2.57016" s0="1.25175" s1="1.25175" s2="1.25175" q0="0" q1="-0.63686" q2="0" q3="-0.77098" euler_x="0" euler_y="1.38084" euler_z="0" id="497" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/RatJunk/RatJunkPouch.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Dialogue Guard 2" t0="-4.50575" t1="4.81831" t2="-7.67623" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="498" type_file="Data/Objects/therium/IGF_Characters/mook4spawn.xml" is_player="0">
+    <ActorObject name="Dialogue Guard 2" t0="-1.76123" t1="8.59285" t2="-7.55895" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="498" type_file="Data/Objects/therium/IGF_Characters/mook4spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -1332,6 +1333,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1.06545" />
             <parameter name="Damage Resistance" type="float" val="1" />
             <parameter name="Ear Size" type="float" val="0.91525" />
@@ -1394,11 +1396,11 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot name="Wave Timer" t0="10.8406" t1="3.543" t2="12.596" s0="0.297791" s1="0.297791" s2="0.297791" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="501" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Wave Timer" t0="9.69459" t1="0.483624" t2="1.89901" s0="0.297791" s1="0.297791" s2="0.297791" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="501" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="0" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;This section is to play different versions of the Hide dialogue\ndepending on the player&apos;s lethality in the previous level (Waterfront Escape).&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:2,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_level3_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;stealth&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:3,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_level3_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;nonlethal&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:4,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_level3_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;lethal&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:9,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_level3_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;murder&quot;]},{&quot;display_comment&quot;:&quot;-- Stealth Dialogue\n&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-Stealth&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;-- Non-Lethal Dialogue&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-NonLethal&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;-- Lethal Dialogue&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-Lethal&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;-- Murder Dialogue&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-Murder&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;== WAVE TIMER&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;display_comment&quot;:&quot;Reset!&quot;,&quot;function&quot;:34},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:30,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;]},{&quot;display_comment&quot;:&quot;Player took too long&quot;,&quot;function&quot;:34},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:false,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Increment wave!&quot;,&quot;function&quot;:34},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[1],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations&quot;]},{&quot;duration&quot;:4000,&quot;function&quot;:2},{&quot;function&quot;:7,&quot;line&quot;:15}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;This section is to play different versions of the Hide dialogue\ndepending on the player&apos;s lethality in the previous level (Waterfront Escape).&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:2,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;stealth&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:3,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;nonlethal&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:4,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;lethal&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:9,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;murder&quot;]},{&quot;display_comment&quot;:&quot;-- Stealth Dialogue\n&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-Stealth&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;-- Non-Lethal Dialogue&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-NonLethal&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;-- Lethal Dialogue&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-Lethal&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;-- Murder Dialogue&quot;,&quot;function&quot;:34},{&quot;function&quot;:12,&quot;identifier&quot;:&quot;Overgrowth Level&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:&quot;dialogue Hide-Murder&quot;,&quot;param_name&quot;:&quot;goal_1_pre&quot;,&quot;param_type&quot;:0},{&quot;display_comment&quot;:&quot;== WAVE TIMER&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;display_comment&quot;:&quot;Reset!&quot;,&quot;function&quot;:34},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;duration&quot;:2500,&quot;function&quot;:2},{&quot;checkmodes&quot;:[5],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:30,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;ouruin_ship_eliminations_check&quot;]},{&quot;display_comment&quot;:&quot;Player took too long&quot;,&quot;function&quot;:34},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:false,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Increment wave!&quot;,&quot;function&quot;:34},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[1],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_check&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_ship_eliminations&quot;]},{&quot;duration&quot;:4000,&quot;function&quot;:2},{&quot;function&quot;:7,&quot;line&quot;:15}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -1409,7 +1411,7 @@
     <Decal t0="2.95244" t1="-4.2715" t2="-39.4681" s0="54.9343" s1="58.3424" s2="12.5656" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="502" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0" color_g="0" color_b="0" overbright="0">
         <parameters />
     </Decal>
-    <ActorObject name="Dialogue Guard 1" t0="-6.42701" t1="4.80909" t2="-7.67395" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="503" type_file="Data/Objects/therium/IGF_Characters/mook2winterspawn.xml" is_player="0">
+    <ActorObject name="Dialogue Guard 1" t0="-3.68249" t1="8.58363" t2="-7.55667" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="503" type_file="Data/Objects/therium/IGF_Characters/mook2winterspawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -1418,6 +1420,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="0.9661" />
             <parameter name="Damage Resistance" type="float" val="1" />
             <parameter name="Ear Size" type="float" val="1.49153" />
@@ -1463,7 +1466,7 @@
         </ItemConnections>
         <Palette />
     </ActorObject>
-    <ActorObject name="Mook 2" t0="0.714244" t1="-1.64036" t2="24.3041" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="517" type_file="Data/Objects/therium/IGF_Characters/mook4spawn.xml" is_player="0">
+    <ActorObject name="Mook 2" t0="0.449151" t1="-1.64084" t2="21.964" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="517" type_file="Data/Objects/therium/IGF_Characters/mook4spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -1472,6 +1475,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.55" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.05" />
             <parameter name="Ear Size" type="float" val="1" />
@@ -1501,7 +1505,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -1660,7 +1664,7 @@
     <EnvObject t0="-5.36258" t1="4.34054" t2="-7.75287" s0="2.05229" s1="0.066042" s2="1.02159" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="520" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Mook 1" t0="6.81493" t1="-1.50887" t2="23.7486" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="-0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="534" type_file="Data/Objects/therium/IGF_Characters/mook3spawn.xml" is_player="0">
+    <ActorObject name="Mook 1" t0="5.59295" t1="-1.84654" t2="23.7259" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="-0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="534" type_file="Data/Objects/therium/IGF_Characters/mook3spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -1669,6 +1673,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.55" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.05" />
             <parameter name="Ear Size" type="float" val="1" />
@@ -1698,7 +1703,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -1852,7 +1857,7 @@
             <Connection id="503" />
         </Connections>
     </PlaceholderObject>
-    <ActorObject name="Heavy 1" t0="6.95941" t1="-1.53697" t2="22.7446" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="549" type_file="Data/Objects/therium/IGF_Characters/heavy2.xml" is_player="0">
+    <ActorObject name="Heavy 1" t0="6.92069" t1="-1.56467" t2="23.1833" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="549" type_file="Data/Objects/therium/IGF_Characters/heavy2.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.6" />
             <parameter name="Attack Damage" type="string" val="1.2000000000000002" />
@@ -1861,6 +1866,7 @@
             <parameter name="Block Follow-up" type="string" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.66" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="string" val="1.12" />
             <parameter name="Damage Resistance" type="string" val="1.3" />
             <parameter name="Ear Size" type="string" val="1" />
@@ -1891,7 +1897,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -2027,7 +2033,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <ActorObject name="Heavy 2" t0="0.475345" t1="-1.70989" t2="22.432" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="564" type_file="Data/Objects/therium/IGF_Characters/heavy2.xml" is_player="0">
+    <ActorObject name="Heavy 2" t0="0.619175" t1="-1.70689" t2="23.4093" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="564" type_file="Data/Objects/therium/IGF_Characters/heavy2.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.6" />
             <parameter name="Attack Damage" type="string" val="1.2000000000000002" />
@@ -2036,6 +2042,7 @@
             <parameter name="Block Follow-up" type="string" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.66" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="string" val="1.12" />
             <parameter name="Damage Resistance" type="string" val="1.3" />
             <parameter name="Ear Size" type="string" val="1" />
@@ -2066,7 +2073,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -2191,7 +2198,7 @@
     <Decal t0="5.67944" t1="-6.69983" t2="-7.15712" s0="1.19108" s1="1.37154" s2="0.654482" q0="0" q1="0.208277" q2="0" q3="0.97807" euler_x="0" euler_y="0.419626" euler_z="0" id="567" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.137255" color_g="0.137254" color_b="0.137254" overbright="0">
         <parameters />
     </Decal>
-    <ActorObject name="Heavy 3" t0="7.29362" t1="-1.56934" t2="20.7695" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="579" type_file="Data/Objects/therium/IGF_Characters/heavy2.xml" is_player="0">
+    <ActorObject name="Heavy 3" t0="7.25272" t1="-1.64154" t2="19.8165" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="579" type_file="Data/Objects/therium/IGF_Characters/heavy2.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.6" />
             <parameter name="Attack Damage" type="string" val="1.2000000000000002" />
@@ -2200,6 +2207,7 @@
             <parameter name="Block Follow-up" type="string" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.66" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="string" val="1.12" />
             <parameter name="Damage Resistance" type="string" val="1.3" />
             <parameter name="Ear Size" type="string" val="1" />
@@ -2230,7 +2238,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -2349,7 +2357,7 @@
             <parameters />
         </EnvObject>
     </ActorObject>
-    <ActorObject name="Mook 3" t0="7.16137" t1="-1.54575" t2="21.7349" s0="0.444444" s1="0.444444" s2="0.444444" q0="0.00172049" q1="-0.707105" q2="0.001077" q3="0.707105" euler_x="1.57171" euler_y="-1.56914" euler_z="-1.56778" id="596" type_file="Data/Objects/therium/IGF_Characters/mook1spawn.xml" is_player="0">
+    <ActorObject name="Mook 3" t0="7.22499" t1="-1.54539" t2="21.6468" s0="0.444444" s1="0.444444" s2="0.444444" q0="0.00172049" q1="-0.707105" q2="0.001077" q3="0.707105" euler_x="1.57171" euler_y="-1.56914" euler_z="-1.56778" id="596" type_file="Data/Objects/therium/IGF_Characters/mook1spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -2358,6 +2366,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.05" />
             <parameter name="Ear Size" type="float" val="1" />
@@ -2387,7 +2396,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -2549,7 +2558,7 @@
             <Connection id="503" />
         </Connections>
     </PlaceholderObject>
-    <ActorObject name="Mook 4" t0="0.58817" t1="-1.65269" t2="23.4158" s0="0.444444" s1="0.444444" s2="0.444444" q0="0.00453848" q1="0.732878" q2="0.00343782" q3="0.680337" euler_x="2.99171" euler_y="1.49564" euler_z="2.99016" id="613" type_file="Data/Objects/therium/IGF_Characters/mook2spawn.xml" is_player="0">
+    <ActorObject name="Mook 4" t0="1.9936" t1="-2.12081" t2="23.5852" s0="0.444444" s1="0.444444" s2="0.444444" q0="0.00453848" q1="0.732878" q2="0.00343782" q3="0.680337" euler_x="2.99171" euler_y="1.49564" euler_z="2.99016" id="613" type_file="Data/Objects/therium/IGF_Characters/mook2spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -2558,6 +2567,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.05" />
             <parameter name="Ear Size" type="float" val="1" />
@@ -2587,7 +2597,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -2757,7 +2767,9 @@
         <parameters />
     </ItemObject>
     <ItemObject name="Mook 2" t0="-0.697797" t1="-2.68635" t2="27.7655" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="624" type_file="Data/Items/cinderbreathe_weapons/cinderbreathebroadsword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
-        <parameters />
+        <parameters>
+            <parameter name="Static" type="int" val="0" />
+        </parameters>
     </ItemObject>
     <ItemObject name="Mook 3" t0="9.19449" t1="-2.68635" t2="27.839" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="625" type_file="Data/Items/cinderbreathe_weapons/cinderbreathesword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
@@ -2766,10 +2778,14 @@
         <parameters />
     </ItemObject>
     <ItemObject name="Mook 3" t0="8.54888" t1="-2.68635" t2="27.7165" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="627" type_file="Data/Items/cinderbreathe_weapons/cinderbreathespear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
-        <parameters />
+        <parameters>
+            <parameter name="Static" type="int" val="0" />
+        </parameters>
     </ItemObject>
     <ItemObject name="Mook 4" t0="10.5771" t1="-2.68491" t2="27.6324" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="628" type_file="Data/Items/cinderbreathe_weapons/cinderbreathespear.xml" color_r="1" color_g="1" color_b="1" overbright="0">
-        <parameters />
+        <parameters>
+            <parameter name="Static" type="int" val="0" />
+        </parameters>
     </ItemObject>
     <ItemObject t0="-4.0286" t1="4.76205" t2="-6.75843" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="629" type_file="Data/Items/cinderbreathe_weapons/cinderbreatheknife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
@@ -2778,12 +2794,14 @@
         <parameters />
     </ItemObject>
     <ItemObject name="Mook 4" t0="10.3893" t1="-2.68618" t2="27.7953" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="631" type_file="Data/Items/cinderbreathe_weapons/cinderbreatheknife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
-        <parameters />
+        <parameters>
+            <parameter name="Static" type="int" val="0" />
+        </parameters>
     </ItemObject>
-    <EnvObject t0="-5.36258" t1="6.64583" t2="-8.63883" s0="2.05229" s1="2.37133" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="633" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-2.61806" t1="10.4204" t2="-8.52155" s0="2.05229" s1="2.37133" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="633" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-3.43816" t1="6.64584" t2="-7.55171" s0="0.127865" s1="2.37133" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="634" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-0.69364" t1="10.4204" t2="-7.43443" s0="0.127865" s1="2.37133" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="634" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <NavmeshHintObject t0="2.05228" t1="-5.88113" t2="-5.47078" s0="1.8533" s1="3" s2="3.19978" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="635">
@@ -2810,7 +2828,7 @@
     <NavmeshHintObject t0="3.41798" t1="-5.88131" t2="-0.850467" s0="0.847773" s1="3" s2="1.05261" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="642">
         <parameters />
     </NavmeshHintObject>
-    <EnvObject t0="-7.27616" t1="6.64582" t2="-7.55172" s0="0.127865" s1="2.37133" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="647" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-4.53164" t1="10.4204" t2="-7.43444" s0="0.127865" s1="2.37133" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="647" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <PlaceholderObject t0="0.931043" t1="-2.07832" t2="12.5914" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="648" type_file="" special_type="0">
@@ -2898,21 +2916,21 @@
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
-    <PathPointObject t0="4.674" t1="-7.10641" t2="10.8977" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="659" type_file="">
+    <PathPointObject t0="4.674" t1="-7.5056" t2="10.8977" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="659" type_file="">
         <parameters>
             <parameter name="Type" type="string" val="Data/Animations/r_smallswordfrontstance.anm" />
             <parameter name="Wait" type="float" val="1" />
         </parameters>
         <Connections />
     </PathPointObject>
-    <PathPointObject t0="3.07278" t1="-7.10641" t2="10.6348" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="660" type_file="">
+    <PathPointObject t0="3.07278" t1="-7.5056" t2="10.6348" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="660" type_file="">
         <parameters>
             <parameter name="Type" type="string" val="Data/Animations/r_smallswordfrontstance.anm" />
             <parameter name="Wait" type="float" val="1" />
         </parameters>
         <Connections />
     </PathPointObject>
-    <EnvObject t0="-5.36258" t1="6.64583" t2="-6.68416" s0="2.05229" s1="2.37133" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="661" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-2.61806" t1="10.4204" t2="-6.56688" s0="2.05229" s1="2.37133" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="661" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="3.79029" t1="-2.70225" t2="8.77879" s0="1.52818" s1="0.0141908" s2="2.37793" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="663" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
@@ -3087,6 +3105,7 @@
                 <parameter name="Block Follow-up" type="float" val="0.5" />
                 <parameter name="Block Skill" type="float" val="0.5" />
                 <parameter name="Cannot Be Disarmed" type="int" val="0" />
+                <parameter name="Cannot Throw Weapons" type="int" val="0" />
                 <parameter name="Character Scale" type="float" val="0.3" />
                 <parameter name="Damage Resistance" type="float" val="1" />
                 <parameter name="Ear Size" type="float" val="1" />
@@ -3404,11 +3423,11 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot name="Enemy Waves" t0="10.8512" t1="2.04277" t2="12.6108" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="769" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Enemy Waves" t0="9.70519" t1="-1.01661" t2="1.91381" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="769" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="1" />
             <parameter name="Run in EditorMode" type="int" val="0" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:3,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:5},{&quot;checkmodes&quot;:[0,0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:1,&quot;function&quot;:32,&quot;if_any_are_true&quot;:true,&quot;operatormodes&quot;:[0,0],&quot;parameters&quot;:[&quot;ouruin_lvl4_phase&quot;,&quot;ouruin_lvl4_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;1&quot;,&quot;2&quot;]},{&quot;function&quot;:7,&quot;line&quot;:7},{&quot;display_comment&quot;:&quot;-- Pre-Combat&quot;,&quot;function&quot;:34},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2},{&quot;display_comment&quot;:&quot;-- Encounter Cutscene&quot;,&quot;function&quot;:34},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/woforzlyke.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop1.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop1.ogg&quot;},{&quot;display_comment&quot;:&quot;-- Encounter Begins&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;- First reinforcement&quot;,&quot;function&quot;:34},{&quot;duration&quot;:500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:14,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:4,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/micxekdpys.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop2.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop2.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:929,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;- Second reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_comment&quot;:&quot;- Third reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/biwjhutojc.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop3.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop3.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:640,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/tiizmyiqcg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop4.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop4.ogg&quot;},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;display_comment&quot;:&quot;- Fourth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_comment&quot;:&quot;- Fifth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/foudyljuic.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop6.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop6.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:935,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;display_comment&quot;:&quot;- Sixth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/sbvejwgnha.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop7.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop7.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:937,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;display_comment&quot;:&quot;- Seventh reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_comment&quot;:&quot;- Eighth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/deonwhhzsg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop9.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop9.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:940,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;display_comment&quot;:&quot;Reinforcements over&quot;,&quot;function&quot;:34},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:true,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:84,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Ghost survived!&quot;,&quot;function&quot;:34},{&quot;duration&quot;:1500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:87,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:87,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:24,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:87,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:7,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;attack_path_check&quot;:false,&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:87,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:6,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Play victory dialogue&quot;,&quot;function&quot;:34},{&quot;ai_sound&quot;:false,&quot;bounding_box&quot;:[1,1,1],&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;placeholder_id&quot;:878,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/versus/fight_end.wav&quot;,&quot;sound_type&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:3,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:5},{&quot;checkmodes&quot;:[0,0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:1,&quot;function&quot;:32,&quot;if_any_are_true&quot;:true,&quot;operatormodes&quot;:[0,0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;,&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;1&quot;,&quot;2&quot;]},{&quot;function&quot;:7,&quot;line&quot;:10},{&quot;display_comment&quot;:&quot;-- Pre-Combat&quot;,&quot;function&quot;:34},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;param_after&quot;:true,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;-- Encounter Cutscene&quot;,&quot;function&quot;:34},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/hmsbfvmedw.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop0.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop0.ogg&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/woforzlyke.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop1.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop1.ogg&quot;},{&quot;display_comment&quot;:&quot;-- Encounter Begins&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;- First reinforcement&quot;,&quot;function&quot;:34},{&quot;duration&quot;:500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:22,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:4,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;first wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/micxekdpys.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop2.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop2.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;- Second reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;second wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Third reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;third wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/biwjhutojc.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop3.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop3.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Fourth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;fourth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/tiizmyiqcg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop4.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop4.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Fifth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;fifth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/foudyljuic.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop6.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop6.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Sixth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;sixth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/sbvejwgnha.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop7.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop7.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Seventh reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/bkvvoormvi.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop8.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop8.ogg&quot;},{&quot;display_message&quot;:&quot;seventh wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Eighth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;eighth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/deonwhhzsg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop9.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop9.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;Reinforcements over&quot;,&quot;function&quot;:34},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:true,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:128,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Ghost survived!&quot;,&quot;function&quot;:34},{&quot;duration&quot;:1500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:131,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:131,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:24,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:131,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:7,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;attack_path_check&quot;:false,&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:131,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:6,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Play victory dialogue&quot;,&quot;function&quot;:34},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/versus/fight_end.wav&quot;,&quot;sound_type&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -3416,14 +3435,14 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <EnvObject t0="2.96525" t1="0.0517808" t2="16.3469" s0="7.56072" s1="0.197531" s2="1.8623" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="770" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/cube.xml">
+    <EnvObject t0="2.96512" t1="1.29067" t2="16.3469" s0="7.56072" s1="0.197531" s2="1.8623" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="770" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/cube.xml">
         <parameters />
     </EnvObject>
-    <Hotspot name="Level Start" t0="10.8481" t1="2.04288" t2="11.1264" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="771" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Level Start" t0="9.70209" t1="-1.0165" t2="0.429411" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="771" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="1" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;function&quot;:1,&quot;message&quot;:&quot;level_start&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_phase&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;function&quot;:1,&quot;message&quot;:&quot;level_start&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -3462,9 +3481,6 @@
         <parameters />
     </EnvObject>
     <EnvObject t0="3.7496" t1="-4.45362" t2="21.0271" s0="0.856969" s1="0.751989" s2="0.544651" q0="-0.5" q1="0.5" q2="0.5" q3="0.5" euler_x="0" euler_y="1.5708" euler_z="0" id="786" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/Post1.xml">
-        <parameters />
-    </EnvObject>
-    <EnvObject t0="3.74363" t1="-2.27563" t2="-8.01327" s0="1.7903" s1="0.165493" s2="14.429" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="787" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/cube.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="3.7496" t1="-4.72582" t2="20.7818" s0="0.85697" s1="0.751989" s2="0.544651" q0="0.5" q1="-0.5" q2="0.5" q3="0.5" euler_x="0" euler_y="-1.5708" euler_z="0" id="788" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/Post1.xml">
@@ -3539,17 +3555,17 @@
     <EnvObject t0="4.85006" t1="-3.5792" t2="23.1162" s0="0.856969" s1="0.697448" s2="0.54465" q0="0" q1="-0.707107" q2="0.707107" q3="0" euler_x="-1.5708" euler_y="0" euler_z="3.14159" id="813" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/Post1.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="0.154495" t1="-1.12145" t2="18.1217" s0="0.755257" s1="0.812116" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="814" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
+    <EnvObject t0="0.154495" t1="-0.483958" t2="18.1217" s0="0.755257" s1="1.30435" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="814" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="5.25999" t1="-2.94184" t2="23.1316" s0="1.20088" s1="0.0390183" s2="0.99505" q0="0.382683" q1="-0.92388" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="-2.3562" id="815" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <Hotspot name="Elimination Listener" t0="10.8512" t1="3.54277" t2="11.1108" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="816" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    <Hotspot name="Elimination Listener" t0="9.70519" t1="0.483394" t2="0.413811" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="816" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
         <parameters>
             <parameter name="Debug Current Line" type="int" val="0" />
             <parameter name="Run in EditorMode" type="int" val="0" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_check&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:1,&quot;message&quot;:&quot;music_begin&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/wwdqpxmgld.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop0.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop0.ogg&quot;},{&quot;display_comment&quot;:&quot;Reset!&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;enemy_eliminated&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[2],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;1&quot;]},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;function&quot;:7,&quot;line&quot;:4}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_check&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;display_comment&quot;:&quot;Reset!&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;enemy_eliminated&quot;},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[2],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;1&quot;]},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;function&quot;:7,&quot;line&quot;:2}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -3563,7 +3579,7 @@
     <EnvObject t0="2.22885" t1="-2.9087" t2="22.1158" s0="1.06179" s1="0.931761" s2="1.06178" q0="-0.382684" q1="0.923879" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="-2.35619" id="818" color_r="0.54902" color_g="0.549014" color_b="0.549014" overbright="0" type_file="Data/Objects/Buildings/Post1.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Mook 5" t0="0.455607" t1="-1.67483" t2="21.3682" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="821" type_file="Data/Objects/therium/IGF_Characters/mook3spawn.xml" is_player="0">
+    <ActorObject name="Mook 5" t0="0.411562" t1="-1.67482" t2="20.6171" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="821" type_file="Data/Objects/therium/IGF_Characters/mook3spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -3572,6 +3588,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.55" />
             <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="1.05" />
             <parameter name="Ear Size" type="float" val="1" />
@@ -3601,7 +3618,7 @@
             <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
             <parameter name="Species" type="string" val="rabbit" />
             <parameter name="Startle Modifier" type="string" val="0" />
-            <parameter name="Static" type="int" val="0" />
+            <parameter name="Static" type="int" val="1" />
             <parameter name="Stick To Nav Mesh" type="int" val="1" />
             <parameter name="Teams" type="string" val="guard" />
             <parameter name="Throw Counter Probability" type="float" val="0.4" />
@@ -3759,19 +3776,19 @@
     <EnvObject t0="2.2829" t1="-2.93935" t2="23.1412" s0="1.20438" s1="0.0390184" s2="0.951031" q0="0" q1="0" q2="-0.382683" q3="0.92388" euler_x="0" euler_y="0" euler_z="-0.785397" id="830" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="7.43352" t1="-1.12155" t2="18.1219" s0="0.755257" s1="0.812116" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="831" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
+    <EnvObject t0="7.43352" t1="-0.484058" t2="18.1219" s0="0.755257" s1="1.30435" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="831" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="3.79624" t1="-2.22065" t2="16.0736" s0="1.07321" s1="1.50608" s2="0.848995" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="833" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="1.77629" t1="-1.12182" t2="16.1959" s0="1.03117" s1="0.812116" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="834" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
+    <EnvObject t0="1.77629" t1="-0.534511" t2="16.1959" s0="1.03117" s1="1.2656" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="834" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="3.89672" t1="-1.12457" t2="14.246" s0="1.00225" s1="0.812116" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="835" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
+    <EnvObject t0="3.89672" t1="-0.537261" t2="14.246" s0="1.00225" s1="1.2656" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="835" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="5.80889" t1="-1.12182" t2="16.1959" s0="1.03117" s1="0.812116" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="836" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
+    <EnvObject t0="5.80889" t1="-0.534511" t2="16.1959" s0="1.03117" s1="1.2656" s2="1" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="836" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
     <Decal t0="3.87526" t1="-2.9331" t2="26.536" s0="17.6547" s1="17.6761" s2="14.7816" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="837" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0" color_g="0" color_b="0" overbright="0">
@@ -3790,7 +3807,7 @@
     <EnvObject t0="3.83341" t1="-5.19802" t2="0.895866" s0="0.1378" s1="1.97774" s2="2.91647" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="840" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="3.80746" t1="-1.09578" t2="14.4059" s0="1.45858" s1="1.06749" s2="1.19068" q0="0" q1="-0.710392" q2="0" q3="0.703807" euler_x="3.14159" euler_y="-1.5616" euler_z="3.14159" id="841" color_r="1" color_g="0.99999" color_b="0.99999" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door.xml">
+    <EnvObject t0="3.80675" t1="-1.0957" t2="14.4867" s0="1.45858" s1="1.06749" s2="1.19068" q0="0" q1="-0.710392" q2="0" q3="0.703807" euler_x="3.14159" euler_y="-1.5616" euler_z="3.14159" id="841" color_r="1" color_g="0.99999" color_b="0.99999" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="7.41629" t1="-2.10674" t2="23.1356" s0="0.0183225" s1="3.88509" s2="4.01464" q0="0.5" q1="-0.5" q2="-0.5" q3="0.5" euler_x="1.5708" euler_y="0" euler_z="-1.5708" id="842" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/pillar.xml">
@@ -3809,12 +3826,14 @@
         <parameters />
     </ItemObject>
     <ItemObject name="Mook 1" t0="1.09718" t1="-2.68635" t2="28.0758" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="847" type_file="Data/Items/cinderbreathe_weapons/cinderbreatheknife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
-        <parameters />
+        <parameters>
+            <parameter name="Static" type="int" val="0" />
+        </parameters>
     </ItemObject>
-    <EnvObject t0="3.79421" t1="0.886187" t2="18.2127" s0="0.13913" s1="4.0081" s2="3.4876" q0="0.5" q1="0.5" q2="-0.5" q3="0.5" euler_x="0" euler_y="1.5708" euler_z="0" id="848" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/pillar.xml">
+    <EnvObject t0="3.79421" t1="1.50509" t2="18.2127" s0="0.13913" s1="4.0081" s2="1.41585" q0="0.5" q1="0.5" q2="-0.5" q3="0.5" euler_x="0" euler_y="1.5708" euler_z="0" id="848" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/pillar.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="3.79624" t1="-0.0719728" t2="16.1691" s0="1.07321" s1="1.57981" s2="0.848995" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="849" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
+    <EnvObject t0="3.79624" t1="1.16273" t2="16.1691" s0="1.07321" s1="1.57981" s2="0.848995" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="849" color_r="0.054902" color_g="0.0256491" color_b="0.011411" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/roughwood/wall.xml">
         <parameters />
     </EnvObject>
     <Decal t0="3.81621" t1="-0.512755" t2="15.0087" s0="6.56082" s1="4.9667" s2="4.8326" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="850" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0" color_g="0" color_b="0" overbright="0">
@@ -3862,6 +3881,7 @@
             <parameter name="Block Follow-up" type="float" val="0.5" />
             <parameter name="Block Skill" type="float" val="0.5" />
             <parameter name="Cannot Be Disarmed" type="int" val="1" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
             <parameter name="Character Scale" type="float" val="1" />
             <parameter name="Damage Resistance" type="float" val="2" />
             <parameter name="Ear Size" type="float" val="1" />
@@ -4154,30 +4174,10 @@
     <EnvObject name="AIControl Helper" t0="10.8512" t1="4.04277" t2="12.6108" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="888" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <Hotspot t0="7.42804" t1="-1.16572" t2="19.9774" s0="0.576537" s1="0.576537" s2="0.929277" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="889" type_file="Data/Objects/Hotspots/boundary.xml">
-        <parameters />
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
     <EnvObject name="AIControl Helper" t0="10.8512" t1="4.04277" t2="12.6108" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="890" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <Hotspot t0="6.46833" t1="-1.94897" t2="23.1554" s0="0.742546" s1="0.967916" s2="0.881785" q0="0" q1="-0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="893" type_file="Data/Objects/Hotspots/boundary.xml">
-        <parameters />
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="0.768558" t1="-1.94897" t2="23.1554" s0="0.742546" s1="0.967916" s2="0.881785" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="894" type_file="Data/Objects/Hotspots/boundary.xml">
-        <parameters />
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
     <Hotspot t0="3.59623" t1="-3.32219" t2="23.4995" s0="0.742546" s1="0.281325" s2="0.881785" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="895" type_file="Data/Objects/Hotspots/boundary.xml">
-        <parameters />
-        <Connections />
-        <ConnectionsFrom />
-    </Hotspot>
-    <Hotspot t0="0.286922" t1="-1.16572" t2="19.9775" s0="0.576537" s1="0.576537" s2="0.929277" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="896" type_file="Data/Objects/Hotspots/boundary.xml">
         <parameters />
         <Connections />
         <ConnectionsFrom />
@@ -4475,6 +4475,9 @@
     <NavmeshHintObject t0="9.81114" t1="-5.05857" t2="9.27271" s0="3.0488" s1="4.56213" s2="10.8861" q0="0" q1="-0.0469906" q2="0" q3="0.998895" euler_x="0" euler_y="-0.0940158" euler_z="0" id="943">
         <parameters />
     </NavmeshHintObject>
+    <Decal t0="5.91487" t1="-8.95121" t2="3.53042" s0="6.96069" s1="17.2388" s2="1.68156" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="944" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.352941" color_g="0.352938" color_b="0.352938" overbright="0">
+        <parameters />
+    </Decal>
     <Group name="Dock Door" t0="3.75575" t1="-3.927" t2="19.2662" s0="2.93286" s1="2.87307" s2="1.60391" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="945" version="1">
         <parameters />
         <EnvObject name="Dock Door Open" t0="3.75577" t1="-3.927" t2="19.2662" s0="1.46555" s1="1.08183" s2="1.19635" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="772" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door_open.xml" no_navmesh="true">
@@ -4496,13 +4499,13 @@
     <NavmeshHintObject t0="-4.28695" t1="2.3233" t2="-4.99787" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="954">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="3.36826" t1="2.30906" t2="-5.0021" s0="17.2217" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="955">
+    <NavmeshHintObject t0="3.3682" t1="2.30921" t2="-5.00215" s0="17.222" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="955">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="-4.09057" t1="2.3233" t2="-4.99786" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="956">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="3.17189" t1="2.30906" t2="-5.00211" s0="17.2217" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="957">
+    <NavmeshHintObject t0="3.17183" t1="2.30921" t2="-5.00216" s0="17.222" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="957">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="-2.99345" t1="2.30906" t2="-5.00215" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="958">
@@ -4517,10 +4520,10 @@
     <NavmeshHintObject t0="0.0553284" t1="2.30905" t2="-5.00212" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="961">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="2.09024" t1="2.32329" t2="-4.99784" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="962">
+    <NavmeshHintObject t0="2.09018" t1="2.32344" t2="-4.99789" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="962">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="3.18736" t1="2.30905" t2="-5.00212" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="963">
+    <NavmeshHintObject t0="3.1873" t1="2.3092" t2="-5.00217" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="963">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="5.82931" t1="2.32329" t2="-4.99784" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="964">
@@ -4535,7 +4538,16 @@
     <NavmeshHintObject t0="10.0869" t1="2.30905" t2="-5.00212" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="967">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="2.84003" t1="2.30906" t2="-5.00211" s0="17.2217" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="971">
+    <Decal t0="3.82604" t1="-11.1694" t2="1.27592" s0="7.57" s1="23.0288" s2="8.36864" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="968" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.207843" color_g="0.207841" color_b="0.207841" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="8.65213" t1="-7.14721" t2="2.63302" s0="4.00613" s1="4.09622" s2="4.67155" q0="-0.0297829" q1="0.0766498" q2="-0.442132" q3="0.893173" euler_x="-0.12203" euler_y="0.110814" euler_z="-0.926077" id="969" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.580392" color_g="0.580386" color_b="0.580386" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="5.4708" t1="-6.28196" t2="-9.67391" s0="2.24153" s1="1.55483" s2="2.58395" q0="0" q1="0.0406968" q2="0" q3="0.999171" euler_x="0" euler_y="0.081416" euler_z="0" id="970" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.329412" color_g="0.329408" color_b="0.329408" overbright="0">
+        <parameters />
+    </Decal>
+    <NavmeshHintObject t0="2.83997" t1="2.30921" t2="-5.00216" s0="17.222" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="971">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="-4.61881" t1="2.3233" t2="-4.99787" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="972">
@@ -4550,10 +4562,10 @@
     <NavmeshHintObject t0="-0.276531" t1="2.30905" t2="-5.00212" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="975">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="1.75838" t1="2.32328" t2="-4.99783" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="976">
+    <NavmeshHintObject t0="1.75838" t1="2.32346" t2="-4.99785" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="976">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="2.8555" t1="2.30905" t2="-5.00212" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="977">
+    <NavmeshHintObject t0="2.85544" t1="2.3092" t2="-5.00217" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="977">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="5.49745" t1="2.32328" t2="-4.99784" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="978">
@@ -4568,16 +4580,19 @@
     <NavmeshHintObject t0="9.75499" t1="2.30905" t2="-5.00212" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="981">
         <parameters />
     </NavmeshHintObject>
+    <Decal t0="5.21376" t1="-6.11553" t2="-9.49088" s0="3.91264" s1="1.99652" s2="2.12874" q0="0" q1="-0.101829" q2="0" q3="0.994801" euler_x="0" euler_y="-0.204011" euler_z="0" id="982" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.501961" color_g="0.501956" color_b="0.501956" overbright="0">
+        <parameters />
+    </Decal>
     <NavmeshHintObject t0="-0.845416" t1="2.32329" t2="-4.99783" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="985">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="0.251703" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="986">
+    <NavmeshHintObject t0="0.2517" t1="2.30923" t2="-5.00213" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="986">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="2.28662" t1="2.32329" t2="-4.99783" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="987">
+    <NavmeshHintObject t0="2.28656" t1="2.32344" t2="-4.99788" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="987">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="3.38374" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="988">
+    <NavmeshHintObject t0="3.38368" t1="2.3092" t2="-5.00216" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="988">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="6.02568" t1="2.32329" t2="-4.99783" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="989">
@@ -4592,7 +4607,7 @@
     <NavmeshHintObject t0="10.2832" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="992">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="3.0364" t1="2.30906" t2="-5.0021" s0="17.2217" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="993">
+    <NavmeshHintObject t0="3.03634" t1="2.30921" t2="-5.00215" s0="17.222" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="993">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="-4.42243" t1="2.3233" t2="-4.99786" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="994">
@@ -4607,10 +4622,10 @@
     <NavmeshHintObject t0="-0.0801563" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="997">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="1.95476" t1="2.32328" t2="-4.99782" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="998">
+    <NavmeshHintObject t0="1.9547" t1="2.32343" t2="-4.99787" s0="2.30586" s1="9.83475" s2="38.5303" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="998">
         <parameters />
     </NavmeshHintObject>
-    <NavmeshHintObject t0="3.05188" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="999">
+    <NavmeshHintObject t0="3.05182" t1="2.3092" t2="-5.00216" s0="2.30587" s1="9.83481" s2="38.5305" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="999">
         <parameters />
     </NavmeshHintObject>
     <NavmeshHintObject t0="5.69382" t1="2.32328" t2="-4.99783" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1000">
@@ -4625,13 +4640,28 @@
     <NavmeshHintObject t0="9.95137" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1003">
         <parameters />
     </NavmeshHintObject>
-    <Prefab t0="26.0948" t1="6.45145" t2="6.71077" s0="7.25075" s1="7.48686" s2="3.02336" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1015" version="1" prefab_locked="true" prefab_path="Data/Prefabs/ouruin/lethality/lvl4.xml" os0="7.25075" os1="7.48686" os2="3.02336">
+    <EnvObject t0="2.54952" t1="-1.17748" t2="21.8099" s0="0.456184" s1="2.52584" s2="0.330411" q0="0" q1="0.961186" q2="0" q3="0.275903" euler_x="3.14159" euler_y="0.559058" euler_z="3.14159" id="1006" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
-        <Hotspot name="lvl4 Lethality" t0="28.3787" t1="8.85655" t2="6.56282" s0="0.666666" s1="0.666666" s2="0.666666" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1012" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+    </EnvObject>
+    <EnvObject t0="4.83806" t1="-1.17754" t2="21.964" s0="0.456184" s1="2.52584" s2="0.330411" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="1010" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="2.84622" t1="-1.17748" t2="21.9729" s0="0.456184" s1="2.52584" s2="0.330411" q0="0" q1="0.866026" q2="0" q3="0.5" euler_x="3.14159" euler_y="1.0472" euler_z="3.14159" id="1011" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="3.62062" t1="-0.420794" t2="19.1878" s0="2.56602" s1="1.73896" s2="0.930717" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1012" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="4.97404" t1="-1.17754" t2="21.8455" s0="0.456184" s1="2.52584" s2="0.330411" q0="0" q1="0.319101" q2="0" q3="0.94772" euler_x="0" euler_y="0.649561" euler_z="0" id="1013" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+        <parameters />
+    </EnvObject>
+    <Prefab t0="28.7784" t1="13.0133" t2="4.72795" s0="7.11096" s1="7.48687" s2="3.02337" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1014" version="1" prefab_locked="true" prefab_path="Data/Prefabs/ouruin/lethality/ship.xml" os0="7.11096" os1="7.48687" os2="3.02337">
+        <parameters />
+        <Hotspot name="ship Lethality" t0="30.9925" t1="15.4184" t2="4.58" s0="0.666666" s1="0.666666" s2="0.666666" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="294" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
             <parameters>
                 <parameter name="Debug Current Line" type="int" val="0" />
                 <parameter name="Run in EditorMode" type="int" val="0" />
-                <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;Set current counts to 0&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0,0,0,0,0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_current&quot;,&quot;ouruin_lvl4_kills_current&quot;,&quot;ouruin_lvl4_zonekills_current&quot;,&quot;ouruin_lvl4_overkills_current&quot;,&quot;ouruin_lvl4_throatscut_current&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;]},{&quot;display_comment&quot;:&quot;Add stored counts&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_current&quot;,&quot;ouruin_lvl4_kills_current&quot;,&quot;ouruin_lvl4_zonekills_current&quot;,&quot;ouruin_lvl4_overkills_current&quot;,&quot;ouruin_lvl4_throatscut_current&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations&quot;,&quot;ouruin_lvl4_kills_stored&quot;,&quot;ouruin_lvl4_zonekills_stored&quot;,&quot;ouruin_lvl4_overkills_stored&quot;,&quot;ouruin_lvl4_throatscut_stored&quot;]},{&quot;display_comment&quot;:&quot;Wait to store new lethality counts&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;lethality_store&quot;},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_stored&quot;,&quot;ouruin_lvl4_kills_stored&quot;,&quot;ouruin_lvl4_zonekills_stored&quot;,&quot;ouruin_lvl4_overkills_stored&quot;,&quot;ouruin_lvl4_throatscut_stored&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_current&quot;,&quot;ouruin_lvl4_kills_current&quot;,&quot;ouruin_lvl4_zonekills_current&quot;,&quot;ouruin_lvl4_overkills_current&quot;,&quot;ouruin_lvl4_throatscut_current&quot;]},{&quot;display_comment&quot;:&quot;Set current counts to 0&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0,0,0,0,0],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_current&quot;,&quot;ouruin_lvl4_kills_current&quot;,&quot;ouruin_lvl4_zonekills_current&quot;,&quot;ouruin_lvl4_overkills_current&quot;,&quot;ouruin_lvl4_throatscut_current&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:4},{&quot;display_comment&quot;:&quot;Done!&quot;,&quot;function&quot;:34}]}&#x0A;' />
+                <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;Set current counts to 0&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0,0,0,0,0,0],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_current&quot;,&quot;ouruin_ship_kills_current&quot;,&quot;ouruin_ship_zonekills_current&quot;,&quot;ouruin_ship_overkills_current&quot;,&quot;ouruin_ship_throatscut_current&quot;,&quot;ouruin_ship_alerts_current&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;]},{&quot;display_comment&quot;:&quot;Add stored counts&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_current&quot;,&quot;ouruin_ship_kills_current&quot;,&quot;ouruin_ship_zonekills_current&quot;,&quot;ouruin_ship_overkills_current&quot;,&quot;ouruin_ship_throatscut_current&quot;,&quot;ouruin_ship_alerts_current&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_ship_eliminations&quot;,&quot;ouruin_ship_kills_stored&quot;,&quot;ouruin_ship_zonekills_stored&quot;,&quot;ouruin_ship_overkills_stored&quot;,&quot;ouruin_ship_throatscut_stored&quot;,&quot;ouruin_ship_alerts_stored&quot;]},{&quot;display_comment&quot;:&quot;Wait to store new lethality counts&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;lethality_store&quot;},{&quot;checkmodes&quot;:[0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_stored&quot;,&quot;ouruin_ship_kills_stored&quot;,&quot;ouruin_ship_zonekills_stored&quot;,&quot;ouruin_ship_overkills_stored&quot;,&quot;ouruin_ship_throatscut_stored&quot;,&quot;ouruin_ship_alerts_stored&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_explore_eliminations_current&quot;,&quot;ouruin_explore_kills_current&quot;,&quot;ouruin_explore_zonekills_current&quot;,&quot;ouruin_ship_overkills_current&quot;,&quot;ouruin_ship_throatscut_current&quot;,&quot;ouruin_ship_alerts_current&quot;]},{&quot;display_comment&quot;:&quot;Set current counts to 0&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0,0,0,0,0,0],&quot;parameters&quot;:[&quot;ouruin_explore_eliminations_current&quot;,&quot;ouruin_explore_kills_current&quot;,&quot;ouruin_explore_zonekills_current&quot;,&quot;ouruin_explore_overkills_current&quot;,&quot;ouruin_explore_throatscut_current&quot;,&quot;ouruin_ship_alerts_current&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;,&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:4},{&quot;display_comment&quot;:&quot;Done!&quot;,&quot;function&quot;:34}]}&#x0A;' />
                 <parameter name="Show UI Grid" type="int" val="1" />
                 <parameter name="Transform Relative" type="int" val="0" />
                 <parameter name="UI Snap Scale" type="int" val="20" />
@@ -4639,11 +4669,11 @@
             <Connections />
             <ConnectionsFrom />
         </Hotspot>
-        <Hotspot name="lvl4 Tally" t0="28.3837" t1="4.04445" t2="6.53552" s0="0.665715" s1="0.665715" s2="0.665715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1013" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <Hotspot name="ship Tally" t0="30.9975" t1="10.6063" t2="4.5527" s0="0.665715" s1="0.665715" s2="0.665715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="304" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
             <parameters>
                 <parameter name="Debug Current Line" type="int" val="0" />
                 <parameter name="Run in EditorMode" type="int" val="1" />
-                <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;Reset&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;lethality_tally&quot;},{&quot;display_comment&quot;:&quot;== TALLY POINTS&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Take current counts and add them to level totals&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[1,1,1,1,1],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations&quot;,&quot;ouruin_lvl4_kills&quot;,&quot;ouruin_lvl4_zonekills&quot;,&quot;ouruin_lvl4_overkills&quot;,&quot;ouruin_lvl4_throatscut&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_current&quot;,&quot;ouruin_lvl4_kills_current&quot;,&quot;ouruin_lvl4_zonekills_current&quot;,&quot;ouruin_lvl4_overkills_current&quot;,&quot;ouruin_lvl4_throatscut_current&quot;]},{&quot;display_comment&quot;:&quot;Add all totals to points&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[1,1,1,1,1],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_points&quot;,&quot;ouruin_lvl4_kills_points&quot;,&quot;ouruin_lvl4_zonekills_points&quot;,&quot;ouruin_lvl4_overkills_points&quot;,&quot;ouruin_lvl4_throatscut_points&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations&quot;,&quot;ouruin_lvl4_kills&quot;,&quot;ouruin_lvl4_zonekills&quot;,&quot;ouruin_lvl4_overkills&quot;,&quot;ouruin_lvl4_throatscut&quot;]},{&quot;display_comment&quot;:&quot;Multiply points&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[5,5,5,5,5],&quot;parameters&quot;:[&quot;ouruin_lvl4_eliminations_points&quot;,&quot;ouruin_lvl4_kills_points&quot;,&quot;ouruin_lvl4_zonekills_points&quot;,&quot;ouruin_lvl4_overkills_points&quot;,&quot;ouruin_lvl4_throatscut_points&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;1.000&quot;,&quot;8.000&quot;,&quot;2.000&quot;,&quot;2.000&quot;,&quot;4.000&quot;]},{&quot;display_comment&quot;:&quot;Add all points to level points total&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_lvl4_lethality_points&quot;,&quot;ouruin_lvl4_lethality_points&quot;,&quot;ouruin_lvl4_lethality_points&quot;,&quot;ouruin_lvl4_lethality_points&quot;,&quot;ouruin_lvl4_lethality_points&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lvl4_eliminations_points&quot;,&quot;ouruin_lvl4_kills_points&quot;,&quot;ouruin_lvl4_zonekills_points&quot;,&quot;ouruin_lvl4_overkills_points&quot;,&quot;ouruin_lvl4_throatscut_points&quot;]},{&quot;display_comment&quot;:&quot;Done!&quot;,&quot;function&quot;:34}]}&#x0A;' />
+                <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;Reset&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;LEVEL NAME: ship&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;lethality_tally&quot;},{&quot;display_comment&quot;:&quot;..&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;== TALLY POINTS&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Take current counts and add them to level totals&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[1,1,1,1,1,1],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations&quot;,&quot;ouruin_ship_kills&quot;,&quot;ouruin_ship_zonekills&quot;,&quot;ouruin_ship_overkills&quot;,&quot;ouruin_ship_throatscut&quot;,&quot;ouruin_ship_alerts&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_ship_eliminations_current&quot;,&quot;ouruin_ship_kills_current&quot;,&quot;ouruin_ship_zonekills_current&quot;,&quot;ouruin_ship_overkills_current&quot;,&quot;ouruin_ship_throatscut_current&quot;,&quot;ouruin_ship_alerts_current&quot;]},{&quot;display_comment&quot;:&quot;Add all totals to points&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[1,1,1,1,1],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_points&quot;,&quot;ouruin_ship_kills_points&quot;,&quot;ouruin_ship_zonekills_points&quot;,&quot;ouruin_ship_overkills_points&quot;,&quot;ouruin_ship_throatscut_points&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_ship_eliminations&quot;,&quot;ouruin_ship_kills&quot;,&quot;ouruin_ship_zonekills&quot;,&quot;ouruin_ship_overkills&quot;,&quot;ouruin_ship_throatscut&quot;]},{&quot;display_comment&quot;:&quot;Multiply points&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[5,5,5,5,5],&quot;parameters&quot;:[&quot;ouruin_ship_eliminations_points&quot;,&quot;ouruin_ship_kills_points&quot;,&quot;ouruin_ship_zonekills_points&quot;,&quot;ouruin_ship_overkills_points&quot;,&quot;ouruin_ship_throatscut_points&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;1.000&quot;,&quot;8.000&quot;,&quot;2.000&quot;,&quot;2.000&quot;,&quot;4.000&quot;]},{&quot;display_comment&quot;:&quot;Add all points to level points total&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;,&quot;ouruin_ship_lethality_points&quot;,&quot;ouruin_ship_lethality_points&quot;,&quot;ouruin_ship_lethality_points&quot;,&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_ship_eliminations_points&quot;,&quot;ouruin_ship_kills_points&quot;,&quot;ouruin_ship_zonekills_points&quot;,&quot;ouruin_ship_overkills_points&quot;,&quot;ouruin_ship_throatscut_points&quot;]},{&quot;display_comment&quot;:&quot;..&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;== POINTS SUM&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;(*Value Codex*): Fill percents accordingly!\n\neliminations\n  Add 1 lethality point\nkills\n  Add 8 lethality points\nzonekills\n  Add 2 lethality points. Incurred upon drowning, dying to spikes, or lava\noverkills\n  Add 2 lethality points per overkill. Maximum of 10 overkills per level for a total of 20 points\nthroatscut\n  Add 4 lethality points\n    \n\n\nAt the end of every level, Ouruin adds up each elimination, kill and overkill.\nIt also collects the names of each character.\nThese variables are then tallied to form a total number of points.\nThis point total is compared to a percentage of the maximum possible lethality points (not counting throats slit and overkills).\n\n(0) Perfect Non-Lethal Stealth requires 0% lethality points.\n(1) Non-Lethal Stealth requires less than 10% lethality points.\n(2) Non-Lethal requires less than 25% lethality points.\n(3) Lethal requires less than 50% lethality points.\n(4) Full-Lethal requires more than 75% lethality points.\n(5) Perfect Full-Lethal requires 100% lethality points.\n(6) Senseless Full-Lethal requires more than 100% lethality points.\n&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Perfect Non-Lethal Stealth\n&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:22,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;0&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Non-Lethal Stealth&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[3],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:27,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;10.000&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;1&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Non-Lethal&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[3],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:32,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;25.000&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;2&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Lethal&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[3],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:37,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;50.000&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;3&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Full-Lethal&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[3],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:42,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;75.000&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;4&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Perfect Full-Lethal&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[2],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:47,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;99.000&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;5&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Senseless Full-Lethal&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[2],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:27,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality_points&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;120.000&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:0,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;6&quot;]},{&quot;function&quot;:7,&quot;line&quot;:52},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;-- Level Tallies&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;Average lethality across visited levels&quot;,&quot;function&quot;:34},{&quot;checkmodes&quot;:[0,0,0,0,0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6,6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;,&quot;ouruin_total_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_agra_lethality&quot;,&quot;ouruin_highroad_lethality&quot;,&quot;ouruin_depot_lethality&quot;,&quot;ouruin_creshome_lethality&quot;,&quot;ouruin_fractured_lethality&quot;,&quot;ouruin_ship_lethality&quot;,&quot;ouruin_escape_lethality&quot;,&quot;ouruin_ratden_lethality&quot;,&quot;ouruin_dart_lethality&quot;,&quot;ouruin_explore_lethality&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_lethality_visits&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;checkmodes&quot;:[0,0,0,0,0,0,0,0,0,0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[6,6,6,6,6,6,6,6,6,6],&quot;parameters&quot;:[&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;,&quot;ouruin_lethality_visits&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_agra_visited&quot;,&quot;ouruin_highroad_visited&quot;,&quot;ouruin_depot_visited&quot;,&quot;ouruin_creshome_visited&quot;,&quot;ouruin_fractured_visited&quot;,&quot;ouruin_ship_visited&quot;,&quot;ouruin_escape_visited&quot;,&quot;ouruin_ratden_visited&quot;,&quot;ouruin_dart_visited&quot;,&quot;ouruin_explore_visited&quot;]},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[8],&quot;parameters&quot;:[&quot;ouruin_total_lethality&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;ouruin_lethality_visits&quot;]},{&quot;function&quot;:10,&quot;level_message_type&quot;:0,&quot;message&quot;:&quot;tally_done&quot;},{&quot;display_comment&quot;:&quot;Done!&quot;,&quot;function&quot;:34}]}&#x0A;' />
                 <parameter name="Show UI Grid" type="int" val="1" />
                 <parameter name="Transform Relative" type="int" val="0" />
                 <parameter name="UI Snap Scale" type="int" val="20" />
@@ -4651,9 +4681,9 @@
             <Connections />
             <ConnectionsFrom />
         </Hotspot>
-        <Hotspot t0="23.8077" t1="5.81445" t2="6.88412" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1014" type_file="Data/Objects/Hotspots/ouruin_level.xml">
+        <Hotspot name="Ouruin Level" t0="26.5613" t1="13.0302" t2="4.9013" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="787" type_file="Data/Objects/Hotspots/ouruin_level.xml">
             <parameters>
-                <parameter name="level_name" type="string" val="lvl4" />
+                <parameter name="level_name" type="string" val="ship" />
             </parameters>
             <Connections />
             <ConnectionsFrom />
@@ -4662,13 +4692,296 @@
     <EnvObject t0="1.9888" t1="-2.261" t2="21.0489" s0="0.557062" s1="3.57483" s2="0.955147" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1016" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="3.80348" t1="-0.293979" t2="20.1355" s0="4.76127" s1="1.64002" s2="0.0416465" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1039" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+    <EnvObject t0="2.65004" t1="-27.9314" t2="-3.87875" s0="13.1389" s1="0.756032" s2="36.9221" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1017" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/cube.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="7.18095" t1="-0.698636" t2="24.5534" s0="0.846572" s1="1.85411" s2="0.330411" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1020" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="5.49742" t1="-7.16315" t2="6.27757" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1023" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGraveBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="0.891311" t1="-0.698637" t2="24.5534" s0="0.846572" s1="1.85411" s2="0.330411" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1024" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="2.19973" t1="-7.16315" t2="6.27757" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="1025" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGraveBase.xml">
+        <parameters />
+    </EnvObject>
+    <Hotspot name="Debug Text" t0="14.0556" t1="6.09621" t2="2.2494" s0="0.296296" s1="0.296296" s2="0.296296" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1026" type_file="Data/Objects/Hotspots/drika_hotspot.xml">
+        <parameters>
+            <parameter name="Debug Current Line" type="int" val="0" />
+            <parameter name="Run in EditorMode" type="int" val="1" />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;display_comment&quot;:&quot;Reset&quot;,&quot;function&quot;:34},{&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;10261&quot;,&quot;ui_function&quot;:0},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:8,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_debug&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;1&quot;]},{&quot;font_color&quot;:[1,1,1,1],&quot;font_name&quot;:&quot;Inconsolata&quot;,&quot;font_size&quot;:24,&quot;function&quot;:36,&quot;shadowed&quot;:true,&quot;ui_element_identifier&quot;:&quot;10262&quot;,&quot;ui_function&quot;:3},{&quot;function&quot;:36,&quot;position&quot;:[23,320],&quot;rotation&quot;:0,&quot;text_content&quot;:&quot;ouruin_ship_eliminations: {ouruin_ship_eliminations}\nouruin_ship_eliminations_check: {ouruin_ship_eliminations_check}\nouruin_ship_phase: {ouruin_ship_phase}\n--\nouruin_current_weapon: {ouruin_current_weapon}\nouruin_current_sidearm: {ouruin_current_sidearm}\nouruin_current_item: {ouruin_current_item}\n--\nouruin_shop_shortsword: {ouruin_shop_shortsword}\nouruin_shop_broadsword: {ouruin_shop_broadsword}\nouruin_shop_knife: {ouruin_shop_knife}\nouruin_shop_throwing: {ouruin_shop_throwing}\nouruin_shop_spear: {ouruin_shop_spear}\nouruin_shop_staff: {ouruin_shop_staff}\nouruin_shop_sparrow: {ouruin_shop_sparrow}\nouruin_shop_talisman: {ouruin_shop_talisman}\nouruin_shop_tonic: {ouruin_shop_tonic}\nouruin_shop_armor: {ouruin_shop_armor}&quot;,&quot;ui_element_identifier&quot;:&quot;10263&quot;,&quot;ui_function&quot;:2,&quot;use_fade_in&quot;:false,&quot;use_fade_out&quot;:false,&quot;use_move_in&quot;:false,&quot;use_move_out&quot;:false},{&quot;function&quot;:26,&quot;identifier&quot;:867,&quot;identifier_type&quot;:4,&quot;input_count&quot;:1,&quot;input_identifier&quot;:13,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:2,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;other_input&quot;:&quot;\\&quot;,&quot;use_prompt&quot;:false},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_debug&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:36,&quot;ui_element_identifier&quot;:&quot;10264&quot;,&quot;ui_function&quot;:0},{&quot;function&quot;:26,&quot;identifier&quot;:867,&quot;identifier_type&quot;:4,&quot;input_count&quot;:1,&quot;input_identifier&quot;:13,&quot;input_mode&quot;:0,&quot;input_type&quot;:0,&quot;inputline0&quot;:2,&quot;multi_input_buttons&quot;:[0],&quot;multi_input_others&quot;:[&quot;w&quot;],&quot;multi_input_type&quot;:0,&quot;multi_input_types&quot;:[0],&quot;other_input&quot;:&quot;\\&quot;,&quot;use_prompt&quot;:false},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:false,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_debug&quot;],&quot;read_write_mode&quot;:1,&quot;values&quot;:[&quot;1&quot;]},{&quot;function&quot;:7,&quot;line&quot;:0}]}&#x0A;' />
+            <parameter name="Show UI Grid" type="int" val="1" />
+            <parameter name="Transform Relative" type="int" val="0" />
+            <parameter name="UI Snap Scale" type="int" val="20" />
+        </parameters>
+        <Connections />
+        <ConnectionsFrom />
+    </Hotspot>
+    <EnvObject t0="5.49742" t1="-7.16315" t2="11.3572" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="1027" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGraveBase.xml">
+        <parameters />
+    </EnvObject>
+    <EnvObject t0="2.19973" t1="-7.16315" t2="11.3572" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="-1" euler_x="0" euler_y="0" euler_z="0" id="1028" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGraveBase.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="5.57016" t1="-2.25665" t2="21.049" s0="0.616488" s1="3.57483" s2="0.955147" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1044" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <Hotspot t0="1.95253" t1="3.77487" t2="3.77954" s0="125.462" s1="1" s2="115.401" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1345" type_file="Data/Objects/Hotspots/resetcharacter.xml">
+    <ActorObject name="Ano" t0="1.34112" t1="4.40702" t2="24.828" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="float" val="0.5" />
+            <parameter name="Attack Damage" type="float" val="1" />
+            <parameter name="Attack Knockback" type="float" val="1" />
+            <parameter name="Attack Speed" type="float" val="1" />
+            <parameter name="Block Follow-up" type="float" val="0.5" />
+            <parameter name="Block Skill" type="float" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
+            <parameter name="Character Scale" type="float" val="1" />
+            <parameter name="Damage Resistance" type="float" val="1" />
+            <parameter name="Ear Size" type="float" val="1" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="float" val="0.5" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="float" val="10" />
+            <parameter name="Focus FOV horizontal" type="float" val="0.62834" />
+            <parameter name="Focus FOV vertical" type="float" val="0.62834" />
+            <parameter name="Ground Aggression" type="float" val="0.5" />
+            <parameter name="Idle Sway" type="float" val="1" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="int" val="0" />
+            <parameter name="Left handed" type="int" val="0" />
+            <parameter name="Lives" type="int" val="1" />
+            <parameter name="Movement Speed" type="float" val="1" />
+            <parameter name="Muscle" type="float" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="float" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="float" val="1.41376" />
+            <parameter name="Peripheral FOV vertical" type="float" val="1.41376" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="1" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="guard, player" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.980385" m1="0.0130111" m2="-0.196657" m3="0" m4="-0.0314119" m5="0.995379" m6="-0.0907408" m7="0" m8="0.194568" m9="0.0951385" m10="0.976263" m11="0" m12="-0.155411" m13="0.401825" m14="-0.0145035" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="4" num_connections="1" m0="0.9974" m1="0.0554381" m2="-0.0459715" m3="0" m4="-0.0612975" m5="0.988566" m6="-0.137769" m7="0" m8="0.0378082" m9="0.140229" m10="0.989394" m11="0" m12="0.145737" m13="0.404968" m14="-0.0297241" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="30" num_connections="1" m0="0.0733993" m1="0.46205" m2="-0.883811" m3="0" m4="-0.0464673" m5="0.886824" m6="0.459765" m7="0" m8="0.996219" m9="0.00732187" m10="0.0865624" m11="0" m12="0.0010891" m13="0.42231" m14="-0.00189972" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.984839" m1="-0.158147" m2="0.0712711" m3="0" m4="0.167053" m5="0.975362" m6="-0.144091" m7="0" m8="-0.0467275" m9="0.153813" m10="0.986993" m11="0" m12="-0.122722" m13="0.41214" m14="-0.0203705" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="4" num_connections="1" m0="0.988256" m1="0.0786352" m2="-0.131" m3="0" m4="-0.087623" m5="0.994076" m6="-0.0643096" m7="0" m8="0.125167" m9="0.0750333" m10="0.989291" m11="0" m12="0.116113" m13="0.413918" m14="-0.0191574" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="17" num_connections="1" m0="0.910386" m1="0.393761" m2="0.127078" m3="0" m4="-0.309108" m5="0.851415" m6="-0.423726" m7="0" m8="-0.275043" m9="0.346474" m10="0.896832" m11="0" m12="-0.121342" m13="0.365429" m14="0.0423965" m15="1" />
+                <BoneConnect bone_id="2" num_connections="1" m0="0.8782" m1="0.457431" m2="0.139723" m3="0" m4="-0.372771" m5="0.837627" m6="-0.399279" m7="0" m8="-0.299678" m9="0.298562" m10="0.90612" m11="0" m12="-0.121227" m13="0.356491" m14="0.0445328" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="4" num_connections="1" m0="0.911804" m1="-0.355927" m2="-0.204768" m3="0" m4="0.261572" m5="0.887859" m6="-0.378532" m7="0" m8="0.316535" m9="0.291585" m10="0.902654" m11="0" m12="0.122892" m13="0.365685" m14="0.0448227" m15="1" />
+                <BoneConnect bone_id="2" num_connections="1" m0="0.859734" m1="-0.462663" m2="-0.216333" m3="0" m4="0.373027" m5="0.85813" m6="-0.352794" m7="0" m8="0.348866" m9="0.222611" m10="0.91035" m11="0" m12="0.122419" m13="0.352036" m14="0.0469742" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.803857" m1="0.494468" m2="0.330632" m3="0" m4="0.384862" m5="0.856178" m6="-0.344732" m7="0" m8="-0.453539" m9="-0.149867" m10="-0.878547" m11="0" m12="0.100391" m13="0.301094" m14="0.0624695" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.786284" m1="0.496408" m2="0.367883" m3="0" m4="-0.410479" m5="-0.864704" m6="0.289474" m7="0" m8="0.461806" m9="0.0766008" m10="0.883667" m11="0" m12="0.0843124" m13="0.266842" m14="0.0751648" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.816817" m1="-0.43008" m2="-0.384501" m3="0" m4="-0.315598" m5="0.89105" m6="-0.326233" m7="0" m8="0.482916" m9="-0.145125" m10="-0.863557" m11="0" m12="-0.1012" m13="0.303596" m14="0.0630493" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.809533" m1="-0.432194" m2="-0.397321" m3="0" m4="-0.37035" m5="0.901083" m6="-0.22559" m7="0" m8="0.455518" m9="-0.0354752" m10="-0.88952" m11="0" m12="-0.0890751" m13="0.267784" m14="0.0748901" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="-1" s1="1" s2="1" id="1033" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_b.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1" s1="1" s2="1" id="1034" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_shoulder_b.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.0338684" s1="0.0598606" s2="0.0360363" id="1035" color_r="0.403922" color_g="0.339628" color_b="0.324721" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/low poly/carpet/torus_fat.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="-1" s1="1" s2="1" id="1036" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_neck.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1" s1="1" s2="1" id="1037" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_neck.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.27786" s1="1.27786" s2="1.27786" id="1038" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_straps.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="1.27786" s1="1.27786" s2="1.27786" id="1039" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_straps.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.394151" s1="0.394212" s2="0.506409" id="1040" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_square_plate.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.394151" s1="0.394212" s2="0.506409" id="1041" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_square_plate.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.394151" s1="0.394212" s2="0.506409" id="1042" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_square_plate.xml">
+            <parameters />
+        </EnvObject>
+        <EnvObject s0="0.394151" s1="0.394212" s2="0.506409" id="1043" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Gear/dog_armor/dog_armor_detail_square_plate.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <ActorObject name="Bijou" t0="3.34899" t1="4.40822" t2="24.6607" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
+        <parameters>
+            <parameter name="Aggression" type="string" val="0.5" />
+            <parameter name="Attack Damage" type="string" val="1" />
+            <parameter name="Attack Knockback" type="string" val="1" />
+            <parameter name="Attack Speed" type="string" val="1" />
+            <parameter name="Block Follow-up" type="string" val="0.5" />
+            <parameter name="Block Skill" type="string" val="0.5" />
+            <parameter name="Cannot Be Disarmed" type="int" val="0" />
+            <parameter name="Cannot Throw Weapons" type="int" val="0" />
+            <parameter name="Character Scale" type="string" val="1" />
+            <parameter name="Damage Resistance" type="string" val="1" />
+            <parameter name="Ear Size" type="string" val="0.6000000000000001" />
+            <parameter name="Fall Damage Multiplier" type="float" val="1" />
+            <parameter name="Fat" type="string" val="0.45" />
+            <parameter name="Fear - Afraid At Health Level" type="float" val="0" />
+            <parameter name="Fear - Always Afraid On Sight" type="int" val="0" />
+            <parameter name="Fear - Causes Fear On Sight" type="int" val="0" />
+            <parameter name="Fear - Never Afraid On Sight" type="int" val="0" />
+            <parameter name="Focus FOV distance" type="string" val="10" />
+            <parameter name="Focus FOV horizontal" type="string" val="0.63" />
+            <parameter name="Focus FOV vertical" type="string" val="0.63" />
+            <parameter name="Ground Aggression" type="string" val="0.5" />
+            <parameter name="Idle Sway" type="float" val="0.24719" />
+            <parameter name="Jump - Air Control" type="float" val="3" />
+            <parameter name="Jump - Initial Velocity" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain" type="float" val="5" />
+            <parameter name="Jump - Jump Sustain Boost" type="float" val="10" />
+            <parameter name="Knockout Shield" type="string" val="0" />
+            <parameter name="Left handed" type="string" val="0" />
+            <parameter name="Movement Speed" type="string" val="1" />
+            <parameter name="Muscle" type="string" val="0.5" />
+            <parameter name="No Look Around" type="int" val="0" />
+            <parameter name="Peripheral FOV distance" type="string" val="4" />
+            <parameter name="Peripheral FOV horizontal" type="string" val="1.4100000000000001" />
+            <parameter name="Peripheral FOV vertical" type="string" val="1.4100000000000001" />
+            <parameter name="Species" type="string" val="rabbit" />
+            <parameter name="Static" type="int" val="1" />
+            <parameter name="Stick To Nav Mesh" type="int" val="0" />
+            <parameter name="Teams" type="string" val="player, ghost" />
+            <parameter name="Throw Counter Probability" type="float" val="0.4" />
+            <parameter name="Throw Trainer" type="int" val="0" />
+            <parameter name="Weapon Catch Skill" type="float" val="1" />
+            <parameter name="Wearing Metal Armor" type="int" val="0" />
+        </parameters>
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+        <ItemConnections />
+        <Palette />
+        <EnvObjectAttachments>
+            <EnvObjectAttachment>
+                <BoneConnect bone_id="8" num_connections="1" m0="-0.420513" m1="-0.902243" m2="0.0955295" m3="0" m4="0.906596" m5="-0.413753" m6="0.0830152" m7="0" m8="-0.0353743" m9="0.121516" m10="0.991959" m11="0" m12="0.439997" m13="0.202401" m14="-0.0217175" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+                <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
+            </EnvObjectAttachment>
+        </EnvObjectAttachments>
+        <EnvObject s0="0.318189" s1="0.283663" s2="0.311708" id="1063" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+            <parameters />
+        </EnvObject>
+    </ActorObject>
+    <PlaceholderObject t0="5.14794" t1="-1.89339" t2="12.1298" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1053" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nlg-ko.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-NLG-Kill" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1054" />
+            <parameter name="obj_2" type="int" val="1055" />
+            <parameter name="obj_3" type="int" val="1056" />
+            <parameter name="obj_4" type="int" val="1057" />
+        </parameters>
+        <Connections>
+            <Connection id="1053" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="5.60261" t1="-1.19339" t2="11.8673" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1054" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="5.2995" t1="-1.19339" t2="12.0423" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1055" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="4.99639" t1="-1.19339" t2="12.2173" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1056" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="4.69328" t1="-1.19339" t2="12.3923" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1057" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <Hotspot t0="1.9516" t1="3.77487" t2="3.78487" s0="125.462" s1="1" s2="115.401" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1345" type_file="Data/Objects/Hotspots/resetcharacter.xml">
         <parameters />
         <Connections />
         <ConnectionsFrom />
@@ -4805,4 +5118,10 @@
     <SpawnerItem display_name="Invisible Block" path="Data/Objects/invisibleblock.xml" thumbnail_path="Data/UI/spawner/thumbs/Static Objects/invisibleblock.png" />
     <SpawnerItem display_name="Nav Hint" path="Data/Objects/navmesh/navmesh_hint.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="lvl4.xml" path="Data/Prefabs/ouruin/lethality/lvl4.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="debugtext.xml" path="Data/Prefabs/ouruin/debugtext.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="ship.xml" path="Data/Prefabs/ouruin/lethality/ship.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Dog Grave Base" path="Data/Objects/Environment/DogGrave/DogGraveBase.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/DogGraveBase.png" />
+    <SpawnerItem display_name="commander.xml" path="Prefabs/commander.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="bijou_fine.xml" path="Prefabs/bijou_fine.xml" thumbnail_path="empty_placeholder.png" />
+    <SpawnerItem display_name="Rope" path="Data/Objects/Buildings/RopeBall1.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/rope.png" />
 </RecentItems>
