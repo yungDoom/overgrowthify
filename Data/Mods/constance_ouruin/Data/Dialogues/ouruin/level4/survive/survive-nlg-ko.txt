@@ -1,4 +1,4 @@
-#name "Survive-NLG-Kill"
+#name "Survive-NLG-KO"
 #participants 4
 set_character_pos 3 3.349 4.40821 24.6608 0
 send_character_message 3 "set_torso_target 4.33071 4.8679 24.6431 0"
@@ -11,14 +11,18 @@ send_character_message 1 "set_head_target 3.97296 -6.30782 10.006 1"
 set_cam 2.83724 -4.71118 10.4453 -36.73 -27.53 0 60.8977
 set_dialogue_color 1 0 0.52 0.95
 set_dialogue_voice 1 8
+set_dialogue_color 5 0 0.52 0.95
+set_dialogue_voice 5 8
 set_dialogue_color 2 0.9 0.9 0
 set_dialogue_voice 2 7
+set_dialogue_color 6 0.9 0.9 0
+set_dialogue_voice 6 7
 set_dialogue_color 3 0.7 0.7 0.89
 set_dialogue_voice 3 11
 set_dialogue_color 4 0.7 0.7 0.89
 set_dialogue_voice 4 11
 send_level_message "music_layer_override -2"
-say 1 "Ghost" "..."
+say 5 "Ghost" "..."
 send_character_message 1 "set_torso_target 2.88716 -6.65571 9.36763 0.231628"
 set_character_pos 3 3.349 4.40821 24.6608 0
 send_character_message 1 "set_eye_dir 2.76926 -6.71428 9.86973 0.618978"
@@ -38,22 +42,20 @@ send_character_message 3 "set_head_target 2.17657 -5.95031 11.7019 0"
 send_character_message 1 "set_torso_target 2.93965 -6.12031 9.05436 0.723284"
 send_character_message 1 "set_head_target 2.26319 -6.43022 8.99626 1"
 send_character_message 1 "set_eye_dir 3.61158 -5.60129 9.45459 1"
-*Bijou enters the room.*
 say 1 "Ghost" "...[wait 0.1]!"
-send_character_message 3 "set_head_target 1.59673 -6.12408 12.1888 0.881419"
+send_character_message 3 "set_head_target 1.59673 -6.12408 12.1888 0.598258"
 set_cam 3.82456 -6.6585 5.41026 3.57 171.62 1.95 21.9388
 say 3 "Bijou" "A-[wait 0.1]Amos..."
-send_character_message 3 "set_eye_dir 4.32055 -5.02524 10.5412 0.835872"
-send_character_message 3 "set_head_target 1.57624 -6.34777 12.1724 0.881419"
+send_character_message 3 "set_eye_dir 4.32055 -5.02524 10.5412 0.752537"
+send_character_message 3 "set_head_target 1.57624 -6.34777 12.1724 0.661424"
 say 3 "Bijou" "[wait 0.2]Are you hurt?"
+send_character_message 3 "set_animation \"Data/Animations/bijou_shipapproach.anm\""
 send_character_message 3 "set_torso_target 4.23779 -6.07136 14.0906 0"
-send_character_message 3 "set_head_target 1.56973 -6.63051 12.1931 0.881419"
 send_character_message 1 "set_animation \"Data/Animations/ghost_shipcoll.anm\""
 send_character_message 1 "set_eye_dir 3.42359 -6.58714 9.70902 1"
 send_character_message 1 "set_head_target 2.26363 -6.43022 8.99632 0"
 send_character_message 1 "set_torso_target 2.93965 -6.12031 9.05436 0.0102144"
 send_character_message 3 "set_eye_dir 4.32055 -5.02524 10.5412 1"
-*Amos collapses, [wait 0.1]and kneels on the ground.*
 say 1 "Amos" "Ngh...[wait 0.1]!"
 send_character_message 3 "set_eye_dir 3.03604 -6.67466 8.59772 1"
 send_character_message 1 "set_head_target 3.06373 -7.14168 8.56123 0"
@@ -63,11 +65,11 @@ send_character_message 3 "set_torso_target 3.09262 -6.34789 8.83225 0"
 set_character_pos 3 2.1969 -6.69222 8.46364 13
 send_character_message 1 "set_eye_dir 3.09522 -7.07514 8.51699 0.649209"
 set_cam 1.67057 -5.87299 9.51295 -23.43 -46.8 0.41 39.3213
+send_character_message 1 "empty_hands"
 say 3 "Bijou" "Amos!"
 set_cam 1.67058 -5.87298 9.51295 -23.43 -46.8 0.41 39.3213
 send_character_message 3 "set_head_target 3.15503 -6.69717 8.44931 0.881419"
 send_character_message 1 "set_head_target 2.9614 -7.11988 8.51326 0.482148"
-*Bijou joins Amos' side.*
 say 1 "Amos" "...[wait 0.15]Bijou. [wait 0.2]I'm fine... [wait 0.2]I'm just... [wait 0.2]Tired."
 send_character_message 1 "set_eye_dir 3.00452 -6.90442 8.25832 0.649209"
 send_character_message 1 "set_animation \"Data/Animations/ghost_shiptokneel.anm\""
@@ -85,9 +87,8 @@ send_character_message 1 "set_head_target 3.15873 -6.99562 8.70602 0.597453"
 send_character_message 1 "set_eye_dir 3.08241 -6.90875 8.28837 0.649209"
 send_character_message 3 "set_eye_dir 2.93772 -6.46016 8.47742 0.519806"
 send_character_message 3 "set_head_target 2.92228 -6.56987 8.65245 0.881419"
-set_cam 1.41008 -6.28125 8.089 -5.25 -100.49 -1.75 22.9825
+set_cam 1.40597 -6.28193 8.11084 -5.25 -100.49 -1.75 22.9825
 say 1 "Amos" "Well? [wait 0.2]Come on... [wait 0.2]Show yourself..."
-send_character_message 1 "set_animation \"Data/Animations/ghost_shipkneel.anm\""
 send_character_message 1 "set_eye_dir 3.504 -5.21028 10.9047 0.703289"
 send_character_message 1 "set_head_target 3.26827 -6.73679 8.98074 1"
 say 1 "Amos" "[wait 0.3]Military Marshal Ano."

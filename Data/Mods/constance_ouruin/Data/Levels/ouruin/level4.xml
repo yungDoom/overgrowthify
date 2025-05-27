@@ -50,7 +50,7 @@
     <RayToSun r0="-0.0869436" r1="0.995285" r2="0.0430051" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="3.90914" t1="-6.05801" t2="6.45107" s0="1" s1="1" s2="1" q0="-0.00171381" q1="0.997458" q2="-0.0664279" q3="-0.0257342" euler_x="-3.00859" euler_y="-0.0515882" euler_z="3.14159" id="0">
+    <CameraObject t0="-2.80657" t1="1.69557" t2="-4.54789" s0="1" s1="1" s2="1" q0="0.0227137" q1="0.967004" q2="-0.0930391" q3="0.236076" euler_x="-2.94976" euler_y="0.478895" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <EnvObject t0="3.81014" t1="-1.09578" t2="14.119" s0="1.45858" s1="1.06749" s2="1.19068" q0="0" q1="0.703807" q2="0" q3="0.710392" euler_x="0" euler_y="1.5616" euler_z="0" id="1" color_r="1" color_g="0.99999" color_b="0.99999" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door.xml">
@@ -1661,9 +1661,6 @@
             <Connection id="867" />
         </Connections>
     </PlaceholderObject>
-    <EnvObject t0="-5.36258" t1="4.34054" t2="-7.75287" s0="2.05229" s1="0.066042" s2="1.02159" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="520" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
-        <parameters />
-    </EnvObject>
     <ActorObject name="Mook 1" t0="5.59295" t1="-1.84654" t2="23.7259" s0="0.444444" s1="0.444444" s2="0.444444" q0="0" q1="0.707107" q2="0" q3="-0.707107" euler_x="3.14159" euler_y="-1.5708" euler_z="3.14159" id="534" type_file="Data/Objects/therium/IGF_Characters/mook3spawn.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
@@ -2745,10 +2742,10 @@
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
-    <ItemObject t0="-6.84608" t1="4.83179" t2="-6.80553" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="617" type_file="Data/Items/cinderbreathe_weapons/cinderbreathesword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="-4.11532" t1="8.17474" t2="-7.38417" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="617" type_file="Data/Items/cinderbreathe_weapons/cinderbreathesword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
-    <ItemObject t0="-4.38077" t1="4.83179" t2="-6.80553" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="618" type_file="Data/Items/cinderbreathe_weapons/cinderbreathesword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="-1.65001" t1="8.17474" t2="-7.38417" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="618" type_file="Data/Items/cinderbreathe_weapons/cinderbreathesword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
     <ItemObject name="Mook 2" t0="-0.948457" t1="-2.68635" t2="27.4827" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="619" type_file="Data/Items/cinderbreathe_weapons/cinderbreathesword.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -2787,7 +2784,7 @@
             <parameter name="Static" type="int" val="0" />
         </parameters>
     </ItemObject>
-    <ItemObject t0="-4.0286" t1="4.76205" t2="-6.75843" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="629" type_file="Data/Items/cinderbreathe_weapons/cinderbreatheknife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
+    <ItemObject t0="-1.29784" t1="8.105" t2="-7.33707" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="629" type_file="Data/Items/cinderbreathe_weapons/cinderbreatheknife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
         <parameters />
     </ItemObject>
     <ItemObject name="Mook 5" t0="0.568673" t1="-2.68635" t2="27.9285" s0="1" s1="1" s2="1" q0="0.707107" q1="0" q2="0" q3="0.707107" euler_x="1.5708" euler_y="0" euler_z="0" id="630" type_file="Data/Items/cinderbreathe_weapons/cinderbreatheknife.xml" color_r="1" color_g="1" color_b="1" overbright="0">
@@ -2798,10 +2795,10 @@
             <parameter name="Static" type="int" val="0" />
         </parameters>
     </ItemObject>
-    <EnvObject t0="-2.61806" t1="10.4204" t2="-8.52155" s0="2.05229" s1="2.37133" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="633" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-2.61806" t1="10.0333" t2="-8.52155" s0="2.05229" s1="2.75843" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="633" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-0.69364" t1="10.4204" t2="-7.43443" s0="0.127865" s1="2.37133" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="634" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-0.69364" t1="10.0333" t2="-7.43443" s0="0.127865" s1="2.75843" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="634" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <NavmeshHintObject t0="2.05228" t1="-5.88113" t2="-5.47078" s0="1.8533" s1="3" s2="3.19978" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="635">
@@ -2828,7 +2825,7 @@
     <NavmeshHintObject t0="3.41798" t1="-5.88131" t2="-0.850467" s0="0.847773" s1="3" s2="1.05261" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="642">
         <parameters />
     </NavmeshHintObject>
-    <EnvObject t0="-4.53164" t1="10.4204" t2="-7.43444" s0="0.127865" s1="2.37133" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="647" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-4.53164" t1="10.0333" t2="-7.43444" s0="0.127865" s1="2.75843" s2="1.30987" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="647" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <PlaceholderObject t0="0.931043" t1="-2.07832" t2="12.5914" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="648" type_file="" special_type="0">
@@ -2930,7 +2927,7 @@
         </parameters>
         <Connections />
     </PathPointObject>
-    <EnvObject t0="-2.61806" t1="10.4204" t2="-6.56688" s0="2.05229" s1="2.37133" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="661" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-2.61806" t1="10.0333" t2="-6.56688" s0="2.05229" s1="2.75843" s2="0.135626" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="661" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="3.79029" t1="-2.70225" t2="8.77879" s0="1.52818" s1="0.0141908" s2="2.37793" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="663" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
@@ -3183,7 +3180,7 @@
             <ConnectionsFrom />
         </Hotspot>
     </Prefab>
-    <Hotspot t0="-7.76865" t1="-5.48882" t2="-3.55047" s0="0.976601" s1="7.72403" s2="19.3958" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="713" type_file="Data/Objects/Hotspots/resetcharacter.xml">
+    <Hotspot t0="-7.72733" t1="-5.51248" t2="-3.51662" s0="0.976601" s1="7.72403" s2="19.3958" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="713" type_file="Data/Objects/Hotspots/resetcharacter.xml">
         <parameters />
         <Connections />
         <ConnectionsFrom />
@@ -3427,7 +3424,7 @@
         <parameters>
             <parameter name="Debug Current Line" type="int" val="1" />
             <parameter name="Run in EditorMode" type="int" val="0" />
-            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;},{&quot;function&quot;:7,&quot;line&quot;:150},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:4,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:6},{&quot;checkmodes&quot;:[0,0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:2,&quot;function&quot;:32,&quot;if_any_are_true&quot;:true,&quot;operatormodes&quot;:[0,0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;,&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;1&quot;,&quot;2&quot;]},{&quot;function&quot;:7,&quot;line&quot;:13},{&quot;display_comment&quot;:&quot;-- Pre-Combat&quot;,&quot;function&quot;:34},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;param_after&quot;:true,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Ano Light&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Light&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;-- Encounter Cutscene&quot;,&quot;function&quot;:34},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/hmsbfvmedw.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop0.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop0.ogg&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/woforzlyke.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop1.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop1.ogg&quot;},{&quot;display_comment&quot;:&quot;-- Encounter Begins&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;- First reinforcement&quot;,&quot;function&quot;:34},{&quot;duration&quot;:500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:25,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:4,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;first wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/micxekdpys.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop2.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop2.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;- Second reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;second wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Third reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;third wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/biwjhutojc.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop3.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop3.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Fourth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;fourth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/tiizmyiqcg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop4.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop4.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Fifth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;fifth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/foudyljuic.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop6.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop6.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Sixth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;sixth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/sbvejwgnha.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop7.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop7.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Seventh reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/bkvvoormvi.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop8.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop8.ogg&quot;},{&quot;display_message&quot;:&quot;seventh wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Eighth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;eighth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/deonwhhzsg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop9.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop9.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;Reinforcements over&quot;,&quot;function&quot;:34},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:true,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:131,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Ghost survived!&quot;,&quot;function&quot;:34},{&quot;duration&quot;:1500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:24,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:7,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;attack_path_check&quot;:false,&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:6,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Play victory dialogue&quot;,&quot;function&quot;:34},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/versus/fight_end.wav&quot;,&quot;sound_type&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;display_comment&quot;:&quot;..&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;..&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;==== DIALOGUE ====&quot;,&quot;function&quot;:34},{&quot;dialogue_name&quot;:&quot;Survive-NLG-Kill&quot;,&quot;function&quot;:11},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Ano Light&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:false},{&quot;animate_scale&quot;:true,&quot;animation_method&quot;:0,&quot;animation_type&quot;:3,&quot;duration&quot;:7,&quot;duration_method&quot;:0,&quot;ease_function&quot;:3,&quot;extra_yaw&quot;:0,&quot;function&quot;:30,&quot;identifier_type&quot;:7,&quot;key_data&quot;:[{&quot;rotation&quot;:[-1.4185900454322109e-08,-0.99999076128005981,0.0043168771080672741,-2.9890312447378165e-08],&quot;scale&quot;:[1.2977372407913208,1.2977372407913208,1.2977372407913208],&quot;time&quot;:0,&quot;translation&quot;:[3.8063220977783203,-5.9793949127197266,12.31805419921875]},{&quot;rotation&quot;:[-1.7709091082451778e-08,-0.9970700740814209,0.076494298875331879,-2.9462732697993488e-08],&quot;scale&quot;:[1.2094143629074097,1.2094143629074097,1.2094143629074097],&quot;time&quot;:7,&quot;translation&quot;:[3.8185389041900635,-6.4138154983520508,11.773830413818359]}],&quot;key_ids&quot;:[],&quot;parallel_operation&quot;:true,&quot;update_collision&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Bijou&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:true,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/ano_shipenter_prep.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.846566915512085,-6.5294599533081055,13.76930046081543],&quot;target_actor_rotation&quot;:90},{&quot;bounding_box&quot;:[1,1,1],&quot;dialogue_function&quot;:4,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;placeholder_id&quot;:1076,&quot;placeholder_tag&quot;:&quot;level47691076&quot;},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:true,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/ano_shipenter.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.3935644626617432,-6.7697086334228516,7.8127636909484863],&quot;target_actor_rotation&quot;:-87},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:true,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/ghost_shipkneel.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Bijou&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[5.0396628379821777,-6.7010326385498047,6.6722040176391602],&quot;target_actor_rotation&quot;:-90},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34}]}&#x0A;' />
+            <parameter name="Script Data" type="string" val='{&quot;functions&quot;:[{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;},{&quot;function&quot;:7,&quot;line&quot;:150},{&quot;checkmodes&quot;:[0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:4,&quot;function&quot;:32,&quot;if_any_are_true&quot;:false,&quot;operatormodes&quot;:[0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;0&quot;]},{&quot;function&quot;:7,&quot;line&quot;:6},{&quot;checkmodes&quot;:[0,0],&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:2,&quot;function&quot;:32,&quot;if_any_are_true&quot;:true,&quot;operatormodes&quot;:[0,0],&quot;parameters&quot;:[&quot;ouruin_ship_phase&quot;,&quot;ouruin_ship_phase&quot;],&quot;read_write_mode&quot;:0,&quot;values&quot;:[&quot;1&quot;,&quot;2&quot;]},{&quot;function&quot;:7,&quot;line&quot;:13},{&quot;display_comment&quot;:&quot;-- Pre-Combat&quot;,&quot;function&quot;:34},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;param_after&quot;:true,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Ano Light&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Light&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;-- Encounter Cutscene&quot;,&quot;function&quot;:34},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Dialogue Guard 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Dialogue Guard 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/hmsbfvmedw.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop0.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop0.ogg&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/woforzlyke.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop1.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop1.ogg&quot;},{&quot;display_comment&quot;:&quot;-- Encounter Begins&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;- First reinforcement&quot;,&quot;function&quot;:34},{&quot;duration&quot;:500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:25,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:4,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;first wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/micxekdpys.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop2.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop2.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Open&quot;,&quot;identifier_type&quot;:3},{&quot;enabled&quot;:false,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Dock Door Closed&quot;,&quot;identifier_type&quot;:3},{&quot;display_comment&quot;:&quot;- Second reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;second wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Third reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;third wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/biwjhutojc.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop3.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop3.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 3&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Fourth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;fourth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/tiizmyiqcg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop4.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop4.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 2&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 1&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Fifth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;fifth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/foudyljuic.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop6.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop6.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 3&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Sixth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;sixth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/sbvejwgnha.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop7.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop7.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 4&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Heavy 2&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;- Empty Wave&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;empty wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Seventh reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/bkvvoormvi.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop8.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop8.ogg&quot;},{&quot;display_message&quot;:&quot;seventh wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;display_comment&quot;:&quot;- Eighth reinforcement&quot;,&quot;function&quot;:34},{&quot;function&quot;:1,&quot;message&quot;:&quot;increment_wave&quot;},{&quot;display_message&quot;:&quot;eighth wave!&quot;,&quot;font_path&quot;:&quot;Data/Fonts/Cella.ttf&quot;,&quot;font_size&quot;:28,&quot;function&quot;:20},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:0,&quot;music_path&quot;:&quot;Data/Music/deonwhhzsg.xml&quot;,&quot;song_name&quot;:&quot;SubArenaLoop9.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/SubArena/SubArenaLoop9.ogg&quot;},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;activate&quot;},{&quot;character_option&quot;:23,&quot;function&quot;:19,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;param_after&quot;:false,&quot;param_type&quot;:6,&quot;value_type_option&quot;:0},{&quot;character_message_type&quot;:0,&quot;function&quot;:29,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;message&quot;:&quot;set_omniscient&quot;},{&quot;ai_goal&quot;:1,&quot;function&quot;:35,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_ai_target&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;identifier_type_ai_target&quot;:3},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Mook 5&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.7988045215606689,-3.1147162914276123,23.227575302124023],&quot;target_actor_rotation&quot;:90},{&quot;display_comment&quot;:&quot;Reinforcements over&quot;,&quot;function&quot;:34},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:true,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:131,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;guard&quot;,&quot;identifier_type&quot;:2,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Ghost survived!&quot;,&quot;function&quot;:34},{&quot;duration&quot;:1500,&quot;function&quot;:2},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:0,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:true,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:24,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:7,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;attack_path_check&quot;:false,&quot;ccs_mode&quot;:0,&quot;check_all&quot;:false,&quot;check_all_known&quot;:false,&quot;continue_if_false&quot;:true,&quot;continue_line&quot;:134,&quot;equals&quot;:false,&quot;function&quot;:23,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;state_check&quot;:6,&quot;variable_prefix&quot;:&quot;character_var&quot;},{&quot;display_comment&quot;:&quot;Play victory dialogue&quot;,&quot;function&quot;:34},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:0,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/versus/fight_end.wav&quot;,&quot;sound_type&quot;:0},{&quot;from_beginning_no_fade&quot;:false,&quot;function&quot;:18,&quot;music_mode&quot;:5,&quot;music_path&quot;:&quot;Data/Music/drika_music.xml&quot;,&quot;song_name&quot;:&quot;lugaru_menu_new.ogg&quot;,&quot;song_path&quot;:&quot;Data/Music/lugaru_menu_new.ogg&quot;},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;ai_sound&quot;:false,&quot;function&quot;:6,&quot;gain&quot;:1,&quot;max_range&quot;:5,&quot;play_sound_method&quot;:4,&quot;priority&quot;:0,&quot;sound_path&quot;:&quot;Data/Sounds/ouruin/doors/door_close_slam_muffle.xml&quot;,&quot;sound_type&quot;:0},{&quot;duration&quot;:3000,&quot;function&quot;:2},{&quot;display_comment&quot;:&quot;..&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;.&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;..&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;==== DIALOGUE ====&quot;,&quot;function&quot;:34},{&quot;dialogue_name&quot;:&quot;Survive-NLG-Kill&quot;,&quot;function&quot;:11},{&quot;function&quot;:1,&quot;message&quot;:&quot;dialogue_done&quot;},{&quot;enabled&quot;:true,&quot;function&quot;:3,&quot;identifier&quot;:&quot;Ano Light&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_function&quot;:11,&quot;function&quot;:33,&quot;use_fade&quot;:false},{&quot;animate_scale&quot;:true,&quot;animation_method&quot;:0,&quot;animation_type&quot;:3,&quot;duration&quot;:7,&quot;duration_method&quot;:0,&quot;ease_function&quot;:3,&quot;extra_yaw&quot;:0,&quot;function&quot;:30,&quot;identifier_type&quot;:7,&quot;key_data&quot;:[{&quot;rotation&quot;:[-1.4185900454322109e-08,-0.99999076128005981,0.0043168771080672741,-2.9890312447378165e-08],&quot;scale&quot;:[1.2977372407913208,1.2977372407913208,1.2977372407913208],&quot;time&quot;:0,&quot;translation&quot;:[3.8063220977783203,-5.9793949127197266,12.31805419921875]},{&quot;rotation&quot;:[-1.7709091082451778e-08,-0.9970700740814209,0.076494298875331879,-2.9462732697993488e-08],&quot;scale&quot;:[1.2094143629074097,1.2094143629074097,1.2094143629074097],&quot;time&quot;:7,&quot;translation&quot;:[3.8185389041900635,-6.4138154983520508,11.773830413818359]}],&quot;key_ids&quot;:[],&quot;parallel_operation&quot;:true,&quot;update_collision&quot;:true},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Bijou&quot;,&quot;identifier_type&quot;:3},{&quot;dialogue_control&quot;:true,&quot;dialogue_function&quot;:13,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:true,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/ano_shipenter_prep.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.846566915512085,-6.5294599533081055,13.76930046081543],&quot;target_actor_rotation&quot;:90},{&quot;bounding_box&quot;:[1,1,1],&quot;dialogue_function&quot;:4,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;placeholder_id&quot;:894,&quot;placeholder_tag&quot;:&quot;level4769894&quot;},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:true,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ano&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/ano_shipenter.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[3.3935644626617432,-6.7697086334228516,7.8127636909484863],&quot;target_actor_rotation&quot;:-87},{&quot;anim_from_start&quot;:true,&quot;anim_mirrored&quot;:false,&quot;anim_mobile&quot;:false,&quot;anim_super_mobile&quot;:false,&quot;custom_animation&quot;:true,&quot;dialogue_function&quot;:3,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Ghost&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_animation&quot;:&quot;Data/Animations/ghost_shipkneel.anm&quot;,&quot;use_ik&quot;:true,&quot;wait_anim_end&quot;:false},{&quot;dialogue_function&quot;:2,&quot;function&quot;:33,&quot;identifier&quot;:&quot;Bijou&quot;,&quot;identifier_type&quot;:3,&quot;target_actor_position&quot;:[5.0396628379821777,-6.7010326385498047,6.6722040176391602],&quot;target_actor_rotation&quot;:-90},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34},{&quot;display_comment&quot;:&quot;&quot;,&quot;function&quot;:34}]}&#x0A;' />
             <parameter name="Show UI Grid" type="int" val="1" />
             <parameter name="Transform Relative" type="int" val="0" />
             <parameter name="UI Snap Scale" type="int" val="20" />
@@ -4177,6 +4174,11 @@
     <EnvObject name="AIControl Helper" t0="10.8512" t1="4.04277" t2="12.6108" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="890" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
+    <EnvObject name="Set Actor Eye Direction Helper" t0="9.70519" t1="1.61634" t2="3.91381" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="894" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
+        <parameters>
+            <parameter name="Placeholder Tag" type="string" val="level4769894" />
+        </parameters>
+    </EnvObject>
     <Hotspot t0="3.59623" t1="-3.32219" t2="23.4995" s0="0.742546" s1="0.281325" s2="0.881785" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="895" type_file="Data/Objects/Hotspots/boundary.xml">
         <parameters />
         <Connections />
@@ -4431,6 +4433,9 @@
     <EnvObject name="AIControl Helper" t0="10.8512" t1="4.04277" t2="12.6108" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="916" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
+    <EnvObject t0="-10.1752" t1="4.45286" t2="4.72056" s0="2.05229" s1="0.066042" s2="1.02159" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="922" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
     <Hotspot t0="17.3362" t1="-5.48845" t2="-3.54836" s0="0.976601" s1="7.72403" s2="19.3958" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="925" type_file="Data/Objects/Hotspots/resetcharacter.xml">
         <parameters />
         <Connections />
@@ -4640,9 +4645,41 @@
     <NavmeshHintObject t0="9.95137" t1="2.30905" t2="-5.00211" s0="2.30584" s1="9.83466" s2="38.5299" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1003">
         <parameters />
     </NavmeshHintObject>
+    <Decal t0="-10.1329" t1="5.36056" t2="4.68037" s0="1.15576" s1="1.66245" s2="3.35256" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1004" type_file="Data/Objects/Decals/light_square.xml" color_r="0.0862745" color_g="0.0862736" color_b="0.0862736" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="-2.77635" t1="8.13381" t2="-7.60265" s0="6.44075" s1="2.36383" s2="4.50452" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1005" type_file="Data/Objects/Decals/light_square.xml" color_r="0.0862745" color_g="0.0862736" color_b="0.0862736" overbright="0">
+        <parameters />
+    </Decal>
     <EnvObject t0="2.54952" t1="-1.17748" t2="21.8099" s0="0.456184" s1="2.52584" s2="0.330411" q0="0" q1="0.961186" q2="0" q3="0.275903" euler_x="3.14159" euler_y="0.559058" euler_z="3.14159" id="1006" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
+    <PlaceholderObject t0="-4.93954" t1="0.594943" t2="1.31977" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1007" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nl-ko.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-NL-KO" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1008" />
+            <parameter name="obj_2" type="int" val="1009" />
+            <parameter name="obj_3" type="int" val="1029" />
+            <parameter name="obj_4" type="int" val="1030" />
+        </parameters>
+        <Connections>
+            <Connection id="1007" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.48487" t1="1.29494" t2="1.05727" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1008" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.78798" t1="1.29494" t2="1.23227" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1009" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
     <EnvObject t0="4.83806" t1="-1.17754" t2="21.964" s0="0.456184" s1="2.52584" s2="0.330411" q0="0" q1="0.5" q2="0" q3="0.866025" euler_x="0" euler_y="1.0472" euler_z="0" id="1010" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
@@ -4689,15 +4726,53 @@
             <ConnectionsFrom />
         </Hotspot>
     </Prefab>
+    <PlaceholderObject t0="-3.49518" t1="0.462818" t2="5.47792" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1015" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nl-kill.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-NL-Kill" />
+            <parameter name="NumParticipants" type="string" val="4" />
+            <parameter name="obj_1" type="int" val="1018" />
+            <parameter name="obj_2" type="int" val="1019" />
+            <parameter name="obj_3" type="int" val="1021" />
+            <parameter name="obj_4" type="int" val="1022" />
+        </parameters>
+        <Connections>
+            <Connection id="1015" />
+        </Connections>
+    </PlaceholderObject>
     <EnvObject t0="1.9888" t1="-2.261" t2="21.0489" s0="0.557062" s1="3.57483" s2="0.955147" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1016" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
     <EnvObject t0="2.65004" t1="-27.9314" t2="-3.87875" s0="13.1389" s1="0.756032" s2="36.9221" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1017" color_r="0" color_g="0" color_b="0" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/plain/cube.xml">
         <parameters />
     </EnvObject>
+    <PlaceholderObject t0="-3.04052" t1="1.16282" t2="5.21542" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1018" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.34362" t1="1.16282" t2="5.39042" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1019" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
     <EnvObject t0="7.18095" t1="-0.698636" t2="24.5534" s0="0.846572" s1="1.85411" s2="0.330411" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1020" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
+    <PlaceholderObject t0="-3.64673" t1="1.16282" t2="5.56542" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1021" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.94984" t1="1.16282" t2="5.74042" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1022" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
     <EnvObject t0="5.49742" t1="-7.16315" t2="6.27757" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1023" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGraveBase.xml">
         <parameters />
     </EnvObject>
@@ -4725,10 +4800,42 @@
     <EnvObject t0="2.19973" t1="-7.16315" t2="11.3572" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="-1" euler_x="0" euler_y="0" euler_z="0" id="1028" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/DogGrave/DogGraveBase.xml">
         <parameters />
     </EnvObject>
+    <PlaceholderObject t0="-5.09109" t1="1.29494" t2="1.40727" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1029" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.3942" t1="1.29494" t2="1.58227" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1030" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.37992" t1="0.564933" t2="1.22659" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1031" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nl-kill.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-NL-Kill" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1032" />
+            <parameter name="obj_2" type="int" val="1046" />
+            <parameter name="obj_3" type="int" val="1047" />
+            <parameter name="obj_4" type="int" val="1048" />
+        </parameters>
+        <Connections>
+            <Connection id="1031" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-2.92525" t1="1.26493" t2="0.964093" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1032" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
     <EnvObject t0="5.57016" t1="-2.25665" t2="21.049" s0="0.616488" s1="3.57483" s2="0.955147" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1044" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Ano" t0="1.34112" t1="4.40702" t2="24.828" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
+    <ActorObject name="Ano" t0="-10.1756" t1="5.0719" t2="5.73485" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -4881,7 +4988,25 @@
             <parameters />
         </EnvObject>
     </ActorObject>
-    <ActorObject name="Bijou" t0="3.34899" t1="4.40822" t2="24.6607" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
+    <PlaceholderObject t0="-3.22836" t1="1.26493" t2="1.13909" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1046" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.53147" t1="1.26493" t2="1.31409" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1047" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.83458" t1="1.26493" t2="1.48909" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1048" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <ActorObject name="Bijou" t0="-10.1672" t1="5.0731" t2="3.76036" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="string" val="0.5" />
             <parameter name="Attack Damage" type="string" val="1" />
@@ -4933,22 +5058,48 @@
         <Palette />
         <EnvObjectAttachments>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="8" num_connections="1" m0="-0.420513" m1="-0.902243" m2="0.0955295" m3="0" m4="0.906596" m5="-0.413753" m6="0.0830152" m7="0" m8="-0.0353743" m9="0.121516" m10="0.991959" m11="0" m12="0.439997" m13="0.202401" m14="-0.0217175" m15="1" />
+                <BoneConnect bone_id="8" num_connections="1" m0="-0.420582" m1="-0.902213" m2="0.0955123" m3="0" m4="0.90657" m5="-0.413839" m6="0.082879" m7="0" m8="-0.0352478" m9="0.121446" m10="0.991972" m11="0" m12="0.440078" m13="0.202124" m14="-0.0239913" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
         </EnvObjectAttachments>
-        <EnvObject s0="0.318189" s1="0.283663" s2="0.311708" id="1063" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
+        <EnvObject s0="0.33589" s1="0.299442" s2="0.352061" id="1063" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/RopeBall1.xml">
             <parameters>
                 <parameter name="Untitled parameter" type="string" val="convenient armwrap bandage to hide vertex warping....." />
             </parameters>
         </EnvObject>
     </ActorObject>
-    <PlaceholderObject t0="5.14794" t1="-1.89339" t2="12.1298" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1053" type_file="" special_type="0">
+    <PlaceholderObject t0="-3.379" t1="-1.28227" t2="1.22879" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1050" type_file="" special_type="0">
         <parameters>
-            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nlg-ko.txt" />
-            <parameter name="DisplayName" type="string" val="Survive-NLG-Kill" />
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-l-kill.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-L-Kill" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1051" />
+            <parameter name="obj_2" type="int" val="1052" />
+            <parameter name="obj_3" type="int" val="1059" />
+            <parameter name="obj_4" type="int" val="1060" />
+        </parameters>
+        <Connections>
+            <Connection id="1050" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-2.92433" t1="-0.582269" t2="0.966289" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1051" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.22744" t1="-0.582269" t2="1.14129" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1052" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.90754" t1="0.468976" t2="5.5396" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1053" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nl-ko.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-NL-KO" />
             <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1054" />
             <parameter name="obj_2" type="int" val="1055" />
@@ -4959,37 +5110,389 @@
             <Connection id="1053" />
         </Connections>
     </PlaceholderObject>
-    <PlaceholderObject t0="5.60261" t1="-1.19339" t2="11.8673" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1054" type_file="" special_type="2">
+    <PlaceholderObject t0="-4.45288" t1="1.16898" t2="5.2771" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1054" type_file="" special_type="2">
         <parameters />
         <Connections>
             <Connection id="867" />
         </Connections>
     </PlaceholderObject>
-    <PlaceholderObject t0="5.2995" t1="-1.19339" t2="12.0423" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1055" type_file="" special_type="2">
+    <PlaceholderObject t0="-4.75599" t1="1.16898" t2="5.4521" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1055" type_file="" special_type="2">
         <parameters />
         <Connections>
             <Connection id="1045" />
         </Connections>
     </PlaceholderObject>
-    <PlaceholderObject t0="4.99639" t1="-1.19339" t2="12.2173" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1056" type_file="" special_type="2">
+    <PlaceholderObject t0="-5.0591" t1="1.16898" t2="5.6271" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1056" type_file="" special_type="2">
         <parameters />
         <Connections>
             <Connection id="1049" />
         </Connections>
     </PlaceholderObject>
-    <PlaceholderObject t0="4.69328" t1="-1.19339" t2="12.3923" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1057" type_file="" special_type="2">
+    <PlaceholderObject t0="-5.36221" t1="1.16898" t2="5.8021" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1057" type_file="" special_type="2">
         <parameters />
         <Connections>
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
+    <PlaceholderObject t0="-6.09032" t1="1.15508" t2="5.40124" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1058" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.53055" t1="-0.582269" t2="1.31629" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1059" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.83366" t1="-0.582269" t2="1.49129" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1060" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.03818" t1="-1.25884" t2="1.13158" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1061" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-l-ko.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-L-KO" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1064" />
+            <parameter name="obj_2" type="int" val="1065" />
+            <parameter name="obj_3" type="int" val="1087" />
+            <parameter name="obj_4" type="int" val="1088" />
+        </parameters>
+        <Connections>
+            <Connection id="1061" />
+        </Connections>
+    </PlaceholderObject>
     <DynamicLightObject name="Ano Light" t0="3.8166" t1="-5.52619" t2="13.2028" s0="3.78866" s1="3.78866" s2="3.78866" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1062" color_r="0.545098" color_g="0.510138" color_b="0.26293" overbright="0">
         <parameters />
     </DynamicLightObject>
-    <PlaceholderObject name="Set Actor Eye Direction Helper" t0="3.54013" t1="-6.35319" t2="10.4682" s0="0.1" s1="0.1" s2="0.1" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1076" type_file="" special_type="0">
+    <PlaceholderObject t0="-4.58351" t1="-0.558844" t2="0.869083" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1064" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.88662" t1="-0.558844" t2="1.04408" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1065" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <Decal t0="10.0599" t1="-5.53694" t2="1.29105" s0="9.74017" s1="9.74017" s2="12.7809" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1066" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.356863" color_g="0.356859" color_b="0.356859" overbright="0">
+        <parameters />
+    </Decal>
+    <PlaceholderObject t0="-7.69638" t1="0.468277" t2="5.4062" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1067" type_file="" special_type="0">
         <parameters>
-            <parameter name="Placeholder Tag" type="string" val="level47691076" />
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nlg-ko.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-NLG-KO" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1068" />
+            <parameter name="obj_2" type="int" val="1069" />
+            <parameter name="obj_3" type="int" val="1070" />
+            <parameter name="obj_4" type="int" val="1071" />
         </parameters>
+        <Connections>
+            <Connection id="1067" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-7.24172" t1="1.16828" t2="5.1437" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1068" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-7.54483" t1="1.16828" t2="5.3187" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1069" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-7.84794" t1="1.16828" t2="5.4937" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1070" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-8.15105" t1="1.16828" t2="5.6687" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1071" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.93002" t1="-1.87781" t2="5.53935" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1072" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-l-ko.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-L-KO" />
+            <parameter name="NumParticipants" type="string" val="4" />
+            <parameter name="obj_1" type="int" val="1073" />
+            <parameter name="obj_2" type="int" val="1074" />
+            <parameter name="obj_3" type="int" val="1075" />
+            <parameter name="obj_4" type="int" val="1076" />
+        </parameters>
+        <Connections>
+            <Connection id="1072" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.47535" t1="-1.17781" t2="5.27685" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1073" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.77846" t1="-1.17781" t2="5.45185" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1074" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.08157" t1="-1.17781" t2="5.62685" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1075" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.38468" t1="-1.17781" t2="5.80185" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1076" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.50008" t1="-1.87556" t2="5.48341" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1077" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-l-kill.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-L-Kill" />
+            <parameter name="NumParticipants" type="string" val="4" />
+            <parameter name="obj_1" type="int" val="1078" />
+            <parameter name="obj_2" type="int" val="1079" />
+            <parameter name="obj_3" type="int" val="1080" />
+            <parameter name="obj_4" type="int" val="1081" />
+        </parameters>
+        <Connections>
+            <Connection id="1077" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.04541" t1="-1.17556" t2="5.22091" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1078" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.34852" t1="-1.17556" t2="5.39591" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1079" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.65163" t1="-1.17556" t2="5.57091" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1080" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.95474" t1="-1.17556" t2="5.74591" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1081" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.34466" t1="-1.88156" t2="5.52397" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1082" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-fl.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-FL" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1083" />
+            <parameter name="obj_2" type="int" val="1084" />
+            <parameter name="obj_3" type="int" val="1085" />
+            <parameter name="obj_4" type="int" val="1086" />
+        </parameters>
+        <Connections>
+            <Connection id="1082" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.89" t1="-1.18156" t2="5.26147" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1083" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.19311" t1="-1.18156" t2="5.43647" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1084" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.49622" t1="-1.18156" t2="5.61147" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1085" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.79933" t1="-1.18156" t2="5.78647" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1086" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.18973" t1="-0.558844" t2="1.21908" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1087" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.49284" t1="-0.558844" t2="1.39408" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1088" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.42918" t1="-3.17422" t2="1.18402" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1089" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-fl.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-FL" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1090" />
+            <parameter name="obj_2" type="int" val="1092" />
+            <parameter name="obj_3" type="int" val="1094" />
+            <parameter name="obj_4" type="int" val="1097" />
+        </parameters>
+        <Connections>
+            <Connection id="1089" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-2.97451" t1="-2.47422" t2="0.921524" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1090" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <EnvObject t0="-2.72842" t1="7.2148" t2="-7.6168" s0="2.05229" s1="0.066042" s2="1.02159" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1091" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+        <parameters />
+    </EnvObject>
+    <PlaceholderObject t0="-3.27762" t1="-2.47422" t2="1.09652" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1092" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.91426" t1="2.40615" t2="1.35413" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1093" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nlg-ko.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-NLG-KO" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1106" />
+            <parameter name="obj_2" type="int" val="1096" />
+            <parameter name="obj_3" type="int" val="1108" />
+            <parameter name="obj_4" type="int" val="1113" />
+        </parameters>
+        <Connections>
+            <Connection id="1093" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.58073" t1="-2.47422" t2="1.27152" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1094" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.26525" t1="3.0697" t2="1.10767" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1095" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.7627" t1="3.10615" t2="1.26663" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1096" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1045" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.88384" t1="-2.47422" t2="1.44652" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1097" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.4168" t1="2.3697" t2="1.19517" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1098" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nlg-kill.txt" />
+            <parameter name="DisplayName" type="string" val="AnoMeet-NLG-Kill" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1118" />
+            <parameter name="obj_2" type="int" val="1095" />
+            <parameter name="obj_3" type="int" val="1120" />
+            <parameter name="obj_4" type="int" val="1121" />
+        </parameters>
+        <Connections>
+            <Connection id="1098" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.24187" t1="0.455082" t2="5.48874" s0="1" s1="1" s2="1" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1101" type_file="" special_type="0">
+        <parameters>
+            <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nlg-kill.txt" />
+            <parameter name="DisplayName" type="string" val="Survive-NLG-Kill" />
+            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="obj_1" type="int" val="1109" />
+            <parameter name="obj_2" type="int" val="1058" />
+            <parameter name="obj_3" type="int" val="1114" />
+            <parameter name="obj_4" type="int" val="1115" />
+        </parameters>
+        <Connections>
+            <Connection id="1101" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-4.45959" t1="3.10615" t2="1.09163" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1106" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.06581" t1="3.10615" t2="1.44163" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1108" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.78721" t1="1.15508" t2="5.22624" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1109" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-5.36892" t1="3.10615" t2="1.61663" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1113" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.39343" t1="1.15508" t2="5.57624" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1114" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-6.69654" t1="1.15508" t2="5.75124" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1115" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="-1" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-2.96214" t1="3.0697" t2="0.932666" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1118" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="867" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.56835" t1="3.0697" t2="1.28267" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1120" type_file="" special_type="2">
+        <parameters />
+        <Connections>
+            <Connection id="1049" />
+        </Connections>
+    </PlaceholderObject>
+    <PlaceholderObject t0="-3.87146" t1="3.0697" t2="1.45767" s0="0.3" s1="0.3" s2="0.3" q0="0" q1="0.258819" q2="0" q3="0.965926" euler_x="0" euler_y="0.523599" euler_z="0" id="1121" type_file="" special_type="2">
+        <parameters />
         <Connections>
             <Connection id="-1" />
         </Connections>
@@ -5081,7 +5584,6 @@
     <SpawnerItem display_name="Large Bag" path="Data/Objects/Gear/rabbit_gear/large_bag.xml" thumbnail_path="" />
     <SpawnerItem display_name="Rat Junk Pounch" path="Data/Objects/Gear/RatJunk/RatJunkPouch.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/sacksmall.png" />
     <SpawnerItem display_name="Mook 4" path="Data/Objects/therium/IGF_Characters/mook4spawn.xml" thumbnail_path="Data/UI/thumbsnailsT2/Mook 4.png" />
-    <SpawnerItem display_name="Light Decal (square)" path="Data/Objects/Decals/light_square.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
     <SpawnerItem display_name="Mook Winter 2" path="Data/Objects/therium/IGF_Characters/mook2winterspawn.xml" thumbnail_path="Data/UI/thumbsnailsT2/Mook Winter 2.png" />
     <SpawnerItem display_name="Heavy" path="Data/Objects/therium/Prefabs/heavy.xml" thumbnail_path="Data/UI/thumbsnailsT2/Heavy.png" />
     <SpawnerItem display_name="Armoured Mook" path="Data/Objects/therium/Prefabs/defarmouredmook.xml" thumbnail_path="Data/UI/thumbsnailsT2/Armoured Mook.png" />
@@ -5118,7 +5620,6 @@
     <SpawnerItem display_name="Ambient Shadow (square)" path="Data/Objects/default_env_blob_shadow_decal_square.xml" thumbnail_path="" />
     <SpawnerItem display_name="Placeholder" path="Data/Objects/placeholder/empty_placeholder.xml" thumbnail_path="Data/UI/spawner/thumbs/Utility/empty_placeholder.png" />
     <SpawnerItem display_name="Dynamic Light" path="Data/Objects/default_light.xml" thumbnail_path="" />
-    <SpawnerItem display_name="Ambient Shadow (round)" path="Data/Objects/default_env_blob_shadow_decal.xml" thumbnail_path="" />
     <SpawnerItem display_name="equipmenttablesheathable.xml" path="Data/Prefabs/ouruin/equipment/equipmenttablesheathable.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="equipmentunsheathe.xml" path="Data/Prefabs/ouruin/equipment/equipmentunsheathe.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="ghostarmor.xml" path="Data/Prefabs/ouruin/equipment/ghostarmor.xml" thumbnail_path="empty_placeholder.png" />
@@ -5137,4 +5638,7 @@
     <SpawnerItem display_name="commander.xml" path="Prefabs/commander.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="bijou_fine.xml" path="Prefabs/bijou_fine.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Rope" path="Data/Objects/Buildings/RopeBall1.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/rope.png" />
+    <SpawnerItem display_name="Ambient Shadow (round)" path="Data/Objects/default_env_blob_shadow_decal.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Light Decal (round)" path="Data/Objects/Decals/light_round.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
+    <SpawnerItem display_name="Light Decal (square)" path="Data/Objects/Decals/light_square.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
 </RecentItems>

@@ -1,0 +1,44 @@
+#name "AnoMeet-NL-KO"
+#participants 4
+set_character_pos 2 3.847 -6.529 13.769 90
+send_character_message 2 "set_animation \"Data/Animations/ano_idle.anm\""
+send_character_message 2 "set_eye_dir 3.74556 -5.8208 12.2517 1"
+send_character_message 2 "set_head_target 3.73002 -5.94477 11.7993 1"
+set_character_pos 3 5.04001 -6.701 6.672 -90
+send_character_message 3 "set_torso_target 4.33071 4.8679 24.6431 0"
+send_character_message 3 "set_head_target 4.27437 4.9409 24.6446 0"
+set_character_pos 1 3.394 -6.778 7.813 -90
+send_character_message 1 "set_animation \"Data/Animations/ghost_shippant.anm\""
+send_character_message 1 "set_eye_dir 3.52187 -5.85086 10.7946 0.795718"
+send_character_message 1 "set_torso_target 4.73813 -6.19177 9.17686 0"
+send_character_message 1 "set_head_target 3.54766 -6.10819 10.7533 1"
+set_cam 2.83724 -4.71118 10.4453 -36.73 -27.53 0 60.8977
+set_dialogue_color 1 0 0.52 0.95
+set_dialogue_voice 1 8
+set_dialogue_color 5 0 0.52 0.95
+set_dialogue_voice 5 8
+set_dialogue_color 2 0.9 0.9 0
+set_dialogue_voice 2 7
+set_dialogue_color 6 0.9 0.9 0
+set_dialogue_voice 6 7
+set_dialogue_color 3 0.7 0.7 0.89
+set_dialogue_voice 3 11
+set_dialogue_color 4 0.7 0.7 0.89
+set_dialogue_voice 4 11
+send_level_message "music_layer_override -2"
+say 6 "High Chancellor Ano" "..."
+say 1 "Amos" "So taking dad wasn't enough... [wait 0.2]Now you're taking his kits, [wait 0.1]too?"
+say 2 "High Chancellor Ano" "It's not so simple... [wait 0.2]Your father came willingly. [wait 0.2]He wants you to come with us, [wait 0.1]now."
+say 2 "High Chancellor Ano" "Besides that... [wait 0.2]You have a duty to fulfill. [wait 0.1]There are countless innocent lives at stake... [wait 0.2]Including the ones of this city."
+say 2 "High Chancellor Ano" "It's been hard, [wait 0.1]I know... [wait 0.2]But from behind the scenes, [wait 0.1]I've done so much to support you two."
+say 2 "High Chancellor Ano" "Every stroke of good luck... [wait 0.2]Every windfall... [wait 0.2]That was me. [wait 0.15]I've been doing my best to help you... [wait 0.2]More than you could ever know."
+*Ano steps forwards.*
+say 2 "High Chancellor Ano" "And now we all need you, [wait 0.1]Black Hand. [wait 0.2]Our people are faced with a threat so powerful, [wait 0.1]it could wipe us all out."
+say 1 "Amos" "You've got noone else to do your dirty work?"
+say 2 "High Chancellor Ano" "This 'dirty work' is what will save the lives of countless thousands."
+say 2 "High Chancellor Ano" "It's what Edsel trusted you to complete."
+say 5 "Amos" "..."
+say 3 "Bijou" "Amos, [wait 0.1]please. [wait 0.2]We can't do this."
+say 5 "Amos" "..."
+say 1 "Amos" "Why does it always come to this...[wait 0.1]?"
+send_level_message "dialogue_done"

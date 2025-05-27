@@ -1,0 +1,46 @@
+#name "AnoMeet-NLG-Kill"
+#participants 4
+set_character_pos 2 3.847 -6.529 13.769 90
+send_character_message 2 "set_animation \"Data/Animations/ano_idle.anm\""
+send_character_message 2 "set_eye_dir 3.74556 -5.8208 12.2517 1"
+send_character_message 2 "set_head_target 3.73002 -5.94477 11.7993 1"
+set_character_pos 3 5.04001 -6.701 6.672 -90
+send_character_message 3 "set_torso_target 4.33071 4.8679 24.6431 0"
+send_character_message 3 "set_head_target 4.27437 4.9409 24.6446 0"
+set_character_pos 1 3.394 -6.778 7.813 -90
+send_character_message 1 "set_animation \"Data/Animations/ghost_shippant.anm\""
+send_character_message 1 "set_eye_dir 3.52187 -5.85086 10.7946 0.795718"
+send_character_message 1 "set_torso_target 4.73813 -6.19177 9.17686 0"
+send_character_message 1 "set_head_target 3.54766 -6.10819 10.7533 1"
+set_cam 2.83724 -4.71118 10.4453 -36.73 -27.53 0 60.8977
+set_dialogue_color 1 0 0.52 0.95
+set_dialogue_voice 1 8
+set_dialogue_color 5 0 0.52 0.95
+set_dialogue_voice 5 8
+set_dialogue_color 2 0.9 0.9 0
+set_dialogue_voice 2 7
+set_dialogue_color 6 0.9 0.9 0
+set_dialogue_voice 6 7
+set_dialogue_color 3 0.7 0.7 0.89
+set_dialogue_voice 3 11
+set_dialogue_color 4 0.7 0.7 0.89
+set_dialogue_voice 4 11
+send_level_message "music_layer_override -2"
+say 6 "High Chancellor Ano" "..."
+say 2 "High Chancellor Ano" "We never ''took'' your father. [wait 0.2]He came to us willingly."
+say 2 "High Chancellor Ano" "Edsel is a hero. [wait 0.2]He understands what it means to protect the weak... [wait 0.2]And it is for him that I have protected you."
+say 1 "Amos" "You call this protecting? [wait 0.2]What a sick joke."
+say 2 "High Chancellor Ano" "It was never going to be easy, [wait 0.1]Amos. [wait 0.2]But the things you've been through... [wait 0.2]It would have been so much worse if I never stepped in."
+say 1 "Amos" "I haven't seen his face since I was a child. [wait 0.2]Because of you."
+say 2 "High Chancellor Ano" "Would you have preferred to freeze to death in a lone, [wait 0.1]isolated shack? [wait 0.2]Hiding from everyone, [wait 0.1]until the day you die?"
+say 2 "High Chancellor Ano" "Truth be told, [wait 0.1]Amos, [wait 0.1]it doesn't matter what happens now. [wait 0.2]It's time to come with us..."
+say 2 "High Chancellor Ano" "The fate of Preuwyn itself is at stake. [wait 0.2]We need you."
+say 2 "High Chancellor Ano" "Edsel needs you."
+say 3 "Bijou" "Please, [wait 0.1]Amos. [wait 0.2]There's nothing else we can do..."
+say 1 "Amos" "Just like Donatas..."
+say 3 "Bijou" "W-What happened to him...[wait 0.1]?"
+say 6 "High Chancellor Ano" "..."
+say 1 "Amos" "...[wait 0.2]Was I... [wait 0.2]Ever in control...[wait 0.1]?"
+say 2 "High Chancellor Ano" "I trust you will make the correct decision, [wait 0.1]Black Hand."
+say 5 "Amos" "..."
+send_level_message "dialogue_done"

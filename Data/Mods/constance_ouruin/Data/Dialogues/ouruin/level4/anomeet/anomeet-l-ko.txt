@@ -1,0 +1,49 @@
+#name "AnoMeet-L-KO"
+#participants 4
+set_character_pos 2 3.847 -6.529 13.769 90
+send_character_message 2 "set_animation \"Data/Animations/ano_idle.anm\""
+send_character_message 2 "set_eye_dir 3.74556 -5.8208 12.2517 1"
+send_character_message 2 "set_head_target 3.73002 -5.94477 11.7993 1"
+set_character_pos 3 5.04001 -6.701 6.672 -90
+send_character_message 3 "set_torso_target 4.33071 4.8679 24.6431 0"
+send_character_message 3 "set_head_target 4.27437 4.9409 24.6446 0"
+set_character_pos 1 3.394 -6.778 7.813 -90
+send_character_message 1 "set_animation \"Data/Animations/ghost_shippant.anm\""
+send_character_message 1 "set_eye_dir 3.52187 -5.85086 10.7946 0.795718"
+send_character_message 1 "set_torso_target 4.73813 -6.19177 9.17686 0"
+send_character_message 1 "set_head_target 3.54766 -6.10819 10.7533 1"
+set_cam 2.83724 -4.71118 10.4453 -36.73 -27.53 0 60.8977
+set_dialogue_color 1 0 0.52 0.95
+set_dialogue_voice 1 8
+set_dialogue_color 5 0 0.52 0.95
+set_dialogue_voice 5 8
+set_dialogue_color 2 0.9 0.9 0
+set_dialogue_voice 2 7
+set_dialogue_color 6 0.9 0.9 0
+set_dialogue_voice 6 7
+set_dialogue_color 3 0.7 0.7 0.89
+set_dialogue_voice 3 11
+set_dialogue_color 4 0.7 0.7 0.89
+set_dialogue_voice 4 11
+send_level_message "music_layer_override -2"
+say 6 "High Chancellor Ano" "..."
+say 1 "Amos" "You...[wait 0.1]! [wait 0.2]You took dad away from us... [wait 0.2]Shoved us into this city, [wait 0.1]left us to die!"
+say 2 "High Chancellor Ano" "Edsel came with us willingly. [wait 0.2]He knew what had to be done... [wait 0.2]He understood what was at stake."
+say 1 "Amos" "So your first words to me are lies. [wait 0.2]I expected nothing less."
+say 2 "High Chancellor Ano" "I know it's not easy to believe. [wait 0.2]But you will, [wait 0.1]in time."
+say 1 "Amos" "Drop the act and leave us alone!"
+say 2 "High Chancellor Ano" "If I truly left you alone, [wait 0.1]you would've frozen to death, [wait 0.1]starved, [wait 0.1]or bled out in a gutter. [wait 0.2]Your life's been hard..."
+say 2 "High Chancellor Ano" "But you will never understand how hard it would have been without me. [wait 0.2]So all I ask from you is to come with me, [wait 0.1]and talk. [wait 0.2]That is all."
+say 1 "Amos" "What the hell are you talking about!? [wait 0.2]You shoved us into the worst conditions we could ask for!"
+say 2 "High Chancellor Ano" "And now, [wait 0.1]I offer a reprieve. [wait 0.2]We need you, [wait 0.1]Amos... [wait 0.2]For the sake of Preuwyn."
+say 2 "High Chancellor Ano" "Don't you want to be dry, [wait 0.1]warm and fed? [wait 0.2]We'll take care of you. [wait 0.2]I promise."
+say 1 "Amos" "You ruined our lives."
+say 2 "High Chancellor Ano" "Then let me make it up to you."
+say 3 "Bijou" "A-[wait 0.1]Amos... [wait 0.2]We have to."
+say 3 "Bijou" "There's nowhere left to go... [wait 0.2]This is the end."
+say 5 "Amos" "..."
+say 2 "High Chancellor Ano" "I've made mistakes. [wait 0.2]I've done you wrong. [wait 0.2]I question my loyalty every day."
+say 2 "High Chancellor Ano" "You really, [wait 0.1]truly do not deserve this. [wait 0.2]Which is why I want to make it up to you... [wait 0.2]I want to make things whole again."
+say 5 "Amos" "..."
+say 1 "Amos" "I don't... [wait 0.2]have a choice... [wait 0.2]Do I...[wait 0.1]?"
+send_level_message "dialogue_done"
