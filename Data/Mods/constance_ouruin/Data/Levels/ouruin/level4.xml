@@ -50,7 +50,7 @@
     <RayToSun r0="-0.0869436" r1="0.995285" r2="0.0430051" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="-2.80657" t1="1.69557" t2="-4.54789" s0="1" s1="1" s2="1" q0="0.0227137" q1="0.967004" q2="-0.0930391" q3="0.236076" euler_x="-2.94976" euler_y="0.478895" euler_z="-3.14159" id="0">
+    <CameraObject t0="1.44798" t1="-5.3271" t2="7.25707" s0="1" s1="1" s2="1" q0="0.0594635" q1="0.900743" q2="-0.130655" q3="0.409945" euler_x="-2.8535" euler_y="0.854204" euler_z="-3.14159" id="0">
         <parameters />
     </CameraObject>
     <EnvObject t0="3.81014" t1="-1.09578" t2="14.119" s0="1.45858" s1="1.06749" s2="1.19068" q0="0" q1="0.703807" q2="0" q3="0.710392" euler_x="0" euler_y="1.5616" euler_z="0" id="1" color_r="1" color_g="0.99999" color_b="0.99999" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door.xml">
@@ -4233,7 +4233,7 @@
         <parameters />
         <Group t0="3.86072" t1="-5.8331" t2="8.75348" s0="3.89975" s1="7.02718" s2="6.20715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="146" version="1">
             <parameters />
-            <Decal t0="5.10736" t1="-5.83309" t2="8.75348" s0="0.169769" s1="7.01716" s2="6.19715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="113" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0941176" color_g="0.0941167" color_b="0.0941167" overbright="0">
+            <Decal t0="5.10736" t1="-5.83309" t2="8.89561" s0="0.169769" s1="7.01716" s2="5.91289" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="113" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0941176" color_g="0.0941167" color_b="0.0941167" overbright="0">
                 <parameters />
             </Decal>
             <Decal t0="4.85607" t1="-5.83309" t2="8.75348" s0="0.169769" s1="7.01716" s2="6.19715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="118" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0941176" color_g="0.0941167" color_b="0.0941167" overbright="0">
@@ -4318,7 +4318,7 @@
                 <parameters />
             </Decal>
         </Group>
-        <Group t0="3.86072" t1="-3.05879" t2="8.75348" s0="3.89975" s1="1.32824" s2="6.20715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="199" version="1">
+        <Group t0="3.86072" t1="-3.05879" t2="8.75348" s0="3.89974" s1="1.33635" s2="6.20715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="199" version="1">
             <parameters />
             <Decal t0="5.10736" t1="-3.05879" t2="8.75348" s0="0.169769" s1="1.32635" s2="6.19715" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="171" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0941176" color_g="0.0941167" color_b="0.0941167" overbright="0">
                 <parameters />
@@ -4433,7 +4433,7 @@
     <EnvObject name="AIControl Helper" t0="10.8512" t1="4.04277" t2="12.6108" s0="0.25" s1="0.25" s2="0.25" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="916" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/drika_hotspot_cube.xml">
         <parameters />
     </EnvObject>
-    <EnvObject t0="-10.1752" t1="4.45286" t2="4.72056" s0="2.05229" s1="0.066042" s2="1.02159" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="922" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
+    <EnvObject t0="-10.1752" t1="4.45286" t2="4.72056" s0="2.05229" s1="0.066042" s2="1.02159" q0="0" q1="0.707107" q2="0" q3="0.707107" euler_x="3.14159" euler_y="1.5708" euler_z="3.14159" id="922" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblock.xml">
         <parameters />
     </EnvObject>
     <Hotspot t0="17.3362" t1="-5.48845" t2="-3.54836" s0="0.976601" s1="7.72403" s2="19.3958" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="925" type_file="Data/Objects/Hotspots/resetcharacter.xml">
@@ -4718,7 +4718,7 @@
             <Connections />
             <ConnectionsFrom />
         </Hotspot>
-        <Hotspot name="Ouruin Level" t0="26.5613" t1="13.0302" t2="4.9013" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="787" type_file="Data/Objects/Hotspots/ouruin_level.xml">
+        <Hotspot name="Ouruin Level" t0="26.5613" t1="13.0302" t2="4.9013" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="520" type_file="Data/Objects/Hotspots/ouruin_level.xml">
             <parameters>
                 <parameter name="level_name" type="string" val="ship" />
             </parameters>
@@ -4835,7 +4835,7 @@
     <EnvObject t0="5.57016" t1="-2.25665" t2="21.049" s0="0.616488" s1="3.57483" s2="0.955147" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1044" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Ano" t0="-10.1756" t1="5.0719" t2="5.73485" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
+    <ActorObject name="Ano" t0="-10.1756" t1="5.0719" t2="5.73485" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -4930,25 +4930,25 @@
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="2" num_connections="1" m0="-0.763274" m1="0.505226" m2="0.402691" m3="0" m4="0.38486" m5="0.856186" m6="-0.344716" m7="0" m8="-0.518938" m9="-0.108133" m10="-0.847945" m11="0" m12="0.101012" m13="0.301286" m14="0.0636396" m15="1" />
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.800096" m1="0.482172" m2="0.356873" m3="0" m4="0.375099" m5="0.866396" m6="-0.329634" m7="0" m8="-0.468133" m9="-0.129877" m10="-0.874062" m11="0" m12="0.102385" m13="0.30157" m14="0.0658817" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="2" num_connections="1" m0="-0.786294" m1="0.496397" m2="0.367875" m3="0" m4="-0.410476" m5="-0.86471" m6="0.289458" m7="0" m8="0.461791" m9="0.0765953" m10="0.883675" m11="0" m12="0.0848608" m13="0.266933" m14="0.0762148" m15="1" />
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.786274" m1="0.496361" m2="0.367965" m3="0" m4="-0.41045" m5="-0.864736" m6="0.289416" m7="0" m8="0.461848" m9="0.0765287" m10="0.883652" m11="0" m12="0.0861197" m13="0.267141" m14="0.0786228" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="2" num_connections="1" m0="-0.816807" m1="-0.430083" m2="-0.384519" m3="0" m4="-0.315601" m5="0.891051" m6="-0.326229" m7="0" m8="0.482932" m9="-0.145111" m10="-0.863551" m11="0" m12="-0.101851" m13="0.303792" m14="0.0642157" m15="1" />
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.816789" m1="-0.430111" m2="-0.384526" m3="0" m4="-0.31558" m5="0.891025" m6="-0.326317" m7="0" m8="0.482975" m9="-0.145184" m10="-0.863514" m11="0" m12="-0.102485" m13="0.303982" m14="0.0653477" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
             </EnvObjectAttachment>
             <EnvObjectAttachment>
-                <BoneConnect bone_id="2" num_connections="1" m0="-0.809523" m1="-0.432197" m2="-0.397339" m3="0" m4="-0.370354" m5="0.901082" m6="-0.225587" m7="0" m8="0.455533" m9="-0.0354614" m10="-0.889512" m11="0" m12="-0.0896621" m13="0.26783" m14="0.0760365" m15="1" />
+                <BoneConnect bone_id="2" num_connections="1" m0="-0.809505" m1="-0.432226" m2="-0.397346" m3="0" m4="-0.370339" m5="0.901065" m6="-0.225679" m7="0" m8="0.455579" m9="-0.0355358" m10="-0.889486" m11="0" m12="-0.0901995" m13="0.267871" m14="0.0770855" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
                 <BoneConnect bone_id="-1" num_connections="0" m0="1" m1="0" m2="0" m3="0" m4="0" m5="1" m6="0" m7="0" m8="0" m9="0" m10="1" m11="0" m12="0" m13="0" m14="0" m15="1" />
@@ -5006,7 +5006,7 @@
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
-    <ActorObject name="Bijou" t0="-10.1672" t1="5.0731" t2="3.76036" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="0" euler_y="1.57045" euler_z="0" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
+    <ActorObject name="Bijou" t0="-10.1672" t1="5.0731" t2="3.76036" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="string" val="0.5" />
             <parameter name="Attack Damage" type="string" val="1" />
@@ -5497,6 +5497,9 @@
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
+    <DynamicLightObject name="Ano Light" t0="4.86166" t1="-5.78582" t2="6.49654" s0="1.82859" s1="1.82859" s2="1.82859" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1148" color_r="0.294118" color_g="0.200692" color_b="0.284226" overbright="0">
+        <parameters />
+    </DynamicLightObject>
     <Hotspot t0="1.9516" t1="3.77487" t2="3.78487" s0="125.462" s1="1" s2="115.401" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1345" type_file="Data/Objects/Hotspots/resetcharacter.xml">
         <parameters />
         <Connections />

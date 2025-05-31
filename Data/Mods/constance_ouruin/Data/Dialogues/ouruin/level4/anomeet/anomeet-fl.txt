@@ -33,9 +33,6 @@ say 1 "Ghost" "Hard not to..."
 say 1 "Ghost" "Well? [wait 0.2]You're here to take us away again; [wait 0.1]aren't you...[wait 0.1]? [wait 0.2]Spit it out, [wait 0.1]already."
 say 4 "Bijou" "..."
 say 2 "High Chancellor Ano" "You're to come with us, [wait 0.1]to the Empry. [wait 0.2]We'll have you housed... [wait 0.2]Warm, [wait 0.1]fed, [wait 0.1]and attended to. [wait 0.2]The both of you."
-- *If senseless lethality is achieved.*
-say 1 "Ghost" "You want me to kill someone. [wait 0.2]Why else would you dare talking to me?"
-- *Otherwise*
 say 1 "Ghost" "You'll want me to do something for you. [wait 0.2]What is it?"
 say 2 "High Chancellor Ano" "The matters are far too sensitive to discuss here... [wait 0.2]But believe me, [wait 0.1]this is a matter of life and death, [wait 0.1]for everyone in Preuwyn."
 say 2 "High Chancellor Ano" "Your father wants you to come. [wait 0.2]He's proud of you, [wait 0.1]you know."
