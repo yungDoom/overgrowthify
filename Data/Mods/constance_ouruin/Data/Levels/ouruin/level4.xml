@@ -50,7 +50,7 @@
     <RayToSun r0="-0.0869436" r1="0.995285" r2="0.0430051" />
 </Sky>
 <ActorObjects>
-    <CameraObject t0="1.44798" t1="-5.3271" t2="7.25707" s0="1" s1="1" s2="1" q0="0.0594635" q1="0.900743" q2="-0.130655" q3="0.409945" euler_x="-2.8535" euler_y="0.854204" euler_z="-3.14159" id="0">
+    <CameraObject t0="-5.12686" t1="0.0382072" t2="-4.59046" s0="1" s1="1" s2="1" q0="-0.00105875" q1="-0.998889" q2="0.0278196" q3="-0.0380149" euler_x="-3.08591" euler_y="0.0760777" euler_z="3.14159" id="0">
         <parameters />
     </CameraObject>
     <EnvObject t0="3.81014" t1="-1.09578" t2="14.119" s0="1.45858" s1="1.06749" s2="1.19068" q0="0" q1="0.703807" q2="0" q3="0.710392" euler_x="0" euler_y="1.5616" euler_z="0" id="1" color_r="1" color_g="0.99999" color_b="0.99999" overbright="0" type_file="Data/Objects/Buildings/arena/arena_door.xml">
@@ -313,7 +313,7 @@
         <Connections />
         <ConnectionsFrom />
     </Hotspot>
-    <Hotspot t0="3.13047" t1="-1.78657" t2="8.68126" s0="0.907747" s1="1.48348" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="106" type_file="Data/Objects/Hotspots/ambient_sound.xml">
+    <Hotspot t0="2.8012" t1="-1.79141" t2="8.85942" s0="0.907747" s1="1.48348" s2="1.33783" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="106" type_file="Data/Objects/Hotspots/ambient_sound.xml">
         <parameters>
             <parameter name="Delay Max" type="float" val="10" />
             <parameter name="Delay Min" type="float" val="3" />
@@ -429,7 +429,7 @@
     <EnvObject t0="5.3147" t1="-4.01904" t2="3.89117" s0="1.32847" s1="2.01299" s2="1.44313" q0="0" q1="1" q2="0" q3="0" euler_x="3.14159" euler_y="0" euler_z="3.14159" id="164" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Buildings/shops/sign_long_board.xml">
         <parameters />
     </EnvObject>
-    <Decal t0="-0.733907" t1="-5.16971" t2="3.9673" s0="11.5304" s1="7.26802" s2="0.194439" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0745098" color_g="0.0745091" color_b="0.0745091" overbright="0">
+    <Decal t0="-0.733902" t1="-5.16972" t2="3.89323" s0="11.5304" s1="7.26802" s2="0.307786" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="165" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.4" color_g="0.399996" color_b="0.399996" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="2.63795" t1="-3.38682" t2="21.2254" s0="23.722" s1="15.5247" s2="13.6355" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="166" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0666667" color_g="0.066666" color_b="0.066666" overbright="0">
@@ -615,7 +615,7 @@
     <Decal t0="3.77905" t1="-6.4363" t2="-1.19788" s0="1.634" s1="7.33842" s2="3.13695" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="255" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="3.83293" t1="-5.58574" t2="-2.14994" s0="0.405024" s1="3.93207" s2="0.405024" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="256" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0" color_g="0" color_b="0" overbright="0">
+    <Decal t0="3.83293" t1="-5.58574" t2="-2.14994" s0="0.405024" s1="3.93207" s2="0.405024" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="256" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.00784314" color_g="0.00784306" color_b="0.00784306" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="3.83044" t1="-7.13284" t2="-2.2287" s0="0.418578" s1="0.418578" s2="0.418578" q0="-0.225464" q1="0" q2="0" q3="0.974252" euler_x="-0.454839" euler_y="0" euler_z="0" id="257" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0470588" color_g="0.0470584" color_b="0.0470584" overbright="0">
@@ -669,10 +669,10 @@
     <Decal t0="3.80165" t1="-2.74306" t2="-22.8218" s0="26.6633" s1="26.6633" s2="30.0252" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="273" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0" color_g="0" color_b="0" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="3.82616" t1="-11.1694" t2="0.119788" s0="2.65639" s1="19.739" s2="5.09439" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="276" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0" color_g="0" color_b="0" overbright="0">
+    <Decal t0="3.82616" t1="-11.1694" t2="0.119788" s0="2.65639" s1="19.739" s2="5.09439" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="276" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.00784314" color_g="0.00784306" color_b="0.00784306" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="3.82629" t1="-3.78205" t2="-2.49056" s0="0.281185" s1="1.90143" s2="1.60508" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="278" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0" color_g="0" color_b="0" overbright="0">
+    <Decal t0="3.82629" t1="-3.78205" t2="-2.49056" s0="0.281185" s1="1.90143" s2="1.60508" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="278" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0627451" color_g="0.0627445" color_b="0.0627445" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="3.82629" t1="-4.49199" t2="-2.30122" s0="0.168049" s1="0.266338" s2="1.1677" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="279" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0" color_g="0" color_b="0" overbright="0">
@@ -972,11 +972,11 @@
     <EnvObject t0="5.93271" t1="-5.95024" t2="-6.67218" s0="1" s1="1" s2="1" q0="0" q1="-0.955732" q2="0" q3="0.29424" euler_x="3.14159" euler_y="-0.597321" euler_z="3.14159" id="393" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/Environment/LitterLoads/LargeGourd.xml">
         <parameters />
     </EnvObject>
-    <Group t0="7.10766" t1="-6.71727" t2="-3.5372" s0="0.915996" s1="0.798167" s2="0.977072" q0="0" q1="-0.766037" q2="0" q3="0.642796" euler_x="3.14159" euler_y="-1.39628" euler_z="3.14159" id="395" version="1">
+    <Group t0="7.10346" t1="-6.71778" t2="-3.54039" s0="0.959989" s1="0.797145" s2="0.925311" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="395" version="1">
         <parameters />
-        <Group t0="7.10766" t1="-6.71727" t2="-3.5372" s0="0.613823" s1="0.788167" s2="0.766797" q0="0" q1="-0.901078" q2="0" q3="0.433657" euler_x="3.14159" euler_y="-0.897094" euler_z="3.14159" id="376" version="1">
+        <Group t0="7.10346" t1="-6.71778" t2="-3.54039" s0="0.94999" s1="0.787144" s2="0.915311" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="376" version="1">
             <parameters />
-            <Group t0="7.20965" t1="-6.43051" t2="-3.45843" s0="0.569247" s1="0.490862" s2="0.0932796" q0="-0.268712" q1="-0.707241" q2="-0.558346" q3="0.34037" euler_x="1.80501" euler_y="-0.897092" euler_z="-3.14159" id="374" version="1">
+            <Group t0="7.20803" t1="-6.42456" t2="-3.45973" s0="0.730848" s1="0.190707" s2="0.743986" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="374" version="1">
                 <parameters />
                 <EnvObject t0="7.20803" t1="-6.43243" t2="-3.45973" s0="0.0313129" s1="0.0538973" s2="0.0528795" q0="-0.430686" q1="-0.105285" q2="-0.894904" q3="0.05067" euler_x="0.234221" euler_y="-0.89709" euler_z="-3.14159" id="368" color_r="0.00392157" color_g="0.00201698" color_b="0.000753556" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/low poly/roughwood/half_torusthin.xml">
                     <parameters />
@@ -985,7 +985,7 @@
                     <parameters />
                 </EnvObject>
             </Group>
-            <Group t0="7.03616" t1="-6.78322" t2="-3.59427" s0="0.603823" s1="0.646274" s2="0.573829" q0="0" q1="-0.901077" q2="0" q3="0.433656" euler_x="3.14159" euler_y="-0.89709" euler_z="3.14159" id="375" version="1">
+            <Group t0="7.03443" t1="-6.78322" t2="-3.59208" s0="0.80193" s1="0.646273" s2="0.801936" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="375" version="1">
                 <parameters />
                 <EnvObject t0="7.03218" t1="-6.77973" t2="-3.59233" s0="0.140914" s1="0.0939428" s2="0.140914" q0="0" q1="-0.901076" q2="0" q3="0.433656" euler_x="3.14159" euler_y="-0.897089" euler_z="3.14159" id="363" color_r="0.145098" color_g="0.0992586" color_b="0.0688504" overbright="0" type_file="Data/Custom/FnB/Objects/Simple Shapes/low poly/roughwood/tube.xml">
                     <parameters />
@@ -1016,7 +1016,7 @@
                 </EnvObject>
             </Group>
         </Group>
-        <EnvObject t0="7.03267" t1="-6.82356" t2="-3.59194" s0="0.247238" s1="0.247238" s2="0.247238" q0="0" q1="-0.766037" q2="0" q3="0.642796" euler_x="3.14159" euler_y="-1.39628" euler_z="3.14159" id="394" color_r="0.0627451" color_g="0.0627445" color_b="0.0627445" overbright="0" type_file="Data/Objects/water_cylinder.xml">
+        <EnvObject t0="7.03267" t1="-6.86974" t2="-3.59194" s0="0.247238" s1="0.201062" s2="0.247238" q0="0" q1="-0.766037" q2="0" q3="0.642796" euler_x="3.14159" euler_y="-1.39628" euler_z="3.14159" id="394" color_r="0.0627451" color_g="0.0627445" color_b="0.0627445" overbright="0" type_file="Data/Objects/water_cylinder.xml">
             <parameters />
         </EnvObject>
     </Group>
@@ -3020,7 +3020,7 @@
     <Decal t0="1.30556" t1="-5.19689" t2="-5.10894" s0="1.08172" s1="0.167079" s2="1.16335" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="694" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.329412" color_g="0.329408" color_b="0.329408" overbright="0">
         <parameters />
     </Decal>
-    <Decal t0="3.8316" t1="-4.61407" t2="-2.40357" s0="0.451248" s1="0.813256" s2="0.369798" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="695" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0" color_g="0" color_b="0" overbright="0">
+    <Decal t0="3.8316" t1="-4.61407" t2="-2.40357" s0="0.451248" s1="0.813256" s2="0.369798" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="695" type_file="Data/Objects/Decals/env_blob_shadow_square.xml" color_r="0.0156863" color_g="0.0156861" color_b="0.0156861" overbright="0">
         <parameters />
     </Decal>
     <Decal t0="3.82831" t1="-7.04783" t2="-2.60823" s0="0.905677" s1="0.905677" s2="0.905677" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="696" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.352941" color_g="0.352938" color_b="0.352938" overbright="0">
@@ -3869,7 +3869,7 @@
     <Decal t0="3.69935" t1="0.226838" t2="18.3343" s0="26.9004" s1="10.0546" s2="7.4771" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="863" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0" color_g="0" color_b="0" overbright="0">
         <parameters />
     </Decal>
-    <ActorObject name="Ghost" t0="5.46781" t1="-6.63521" t2="-2.82909" s0="1" s1="1" s2="1" q0="0" q1="0" q2="0" q3="-1" euler_x="0" euler_y="0" euler_z="0" id="867" type_file="Data/Objects/therium/IGF_Characters/ghostouruin.xml" is_player="1">
+    <ActorObject name="Ghost" t0="5.46781" t1="-6.63521" t2="-2.82909" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="0" q2="0" q3="-1" euler_x="0" euler_y="0" euler_z="0" id="867" type_file="Data/Objects/therium/IGF_Characters/ghostouruin.xml" is_player="1">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -4658,7 +4658,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nl-ko.txt" />
             <parameter name="DisplayName" type="string" val="AnoMeet-NL-KO" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1008" />
             <parameter name="obj_2" type="int" val="1009" />
             <parameter name="obj_3" type="int" val="1029" />
@@ -4816,7 +4816,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nl-kill.txt" />
             <parameter name="DisplayName" type="string" val="AnoMeet-NL-Kill" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1032" />
             <parameter name="obj_2" type="int" val="1046" />
             <parameter name="obj_3" type="int" val="1047" />
@@ -4835,7 +4835,7 @@
     <EnvObject t0="5.57016" t1="-2.25665" t2="21.049" s0="0.616488" s1="3.57483" s2="0.955147" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1044" color_r="1" color_g="1" color_b="1" overbright="0" type_file="Data/Objects/invisibleblockwood.xml">
         <parameters />
     </EnvObject>
-    <ActorObject name="Ano" t0="-10.1756" t1="5.0719" t2="5.73485" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
+    <ActorObject name="Ano" t0="-10.1756" t1="4.93968" t2="5.73485" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="1045" type_file="Data/Objects/therium/IGF_Characters/commander.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="float" val="0.5" />
             <parameter name="Attack Damage" type="float" val="1" />
@@ -5006,7 +5006,7 @@
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
-    <ActorObject name="Bijou" t0="-10.1672" t1="5.0731" t2="3.76036" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
+    <ActorObject name="Bijou" t0="-10.1672" t1="4.97008" t2="3.76036" s0="0.666667" s1="0.666667" s2="0.666667" q0="0" q1="-0.707107" q2="0" q3="-0.707107" euler_x="-3.14159" euler_y="1.5708" euler_z="-3.14159" id="1049" type_file="Data/Objects/therium/characters/rabbits/bijou_actor_fine.xml" is_player="0">
         <parameters>
             <parameter name="Aggression" type="string" val="0.5" />
             <parameter name="Attack Damage" type="string" val="1" />
@@ -5074,7 +5074,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-l-kill.txt" />
             <parameter name="DisplayName" type="string" val="AnoMeet-L-Kill" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1051" />
             <parameter name="obj_2" type="int" val="1052" />
             <parameter name="obj_3" type="int" val="1059" />
@@ -5188,7 +5188,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nlg-ko.txt" />
             <parameter name="DisplayName" type="string" val="Survive-NLG-KO" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1068" />
             <parameter name="obj_2" type="int" val="1069" />
             <parameter name="obj_3" type="int" val="1070" />
@@ -5302,7 +5302,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-fl.txt" />
             <parameter name="DisplayName" type="string" val="Survive-FL" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1083" />
             <parameter name="obj_2" type="int" val="1084" />
             <parameter name="obj_3" type="int" val="1085" />
@@ -5352,7 +5352,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-fl.txt" />
             <parameter name="DisplayName" type="string" val="AnoMeet-FL" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1090" />
             <parameter name="obj_2" type="int" val="1092" />
             <parameter name="obj_3" type="int" val="1094" />
@@ -5419,7 +5419,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/anomeet/anomeet-nlg-kill.txt" />
             <parameter name="DisplayName" type="string" val="AnoMeet-NLG-Kill" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1118" />
             <parameter name="obj_2" type="int" val="1095" />
             <parameter name="obj_3" type="int" val="1120" />
@@ -5433,7 +5433,7 @@
         <parameters>
             <parameter name="Dialogue" type="string" val="Data/Dialogues/ouruin/level4/survive/survive-nlg-kill.txt" />
             <parameter name="DisplayName" type="string" val="Survive-NLG-Kill" />
-            <parameter name="NumParticipants" type="int" val="4" />
+            <parameter name="NumParticipants" type="string" val="4" />
             <parameter name="obj_1" type="int" val="1109" />
             <parameter name="obj_2" type="int" val="1058" />
             <parameter name="obj_3" type="int" val="1114" />
@@ -5497,6 +5497,12 @@
             <Connection id="-1" />
         </Connections>
     </PlaceholderObject>
+    <Decal t0="3.85019" t1="-2.91651" t2="13.6451" s0="1.82317" s1="3.24675" s2="1.2371" q0="-0.187999" q1="0" q2="0" q3="0.982169" euler_x="-0.378249" euler_y="0" euler_z="0" id="1130" type_file="Data/Objects/Decals/env_blob_shadow.xml" color_r="0.4" color_g="0.399996" color_b="0.399996" overbright="0">
+        <parameters />
+    </Decal>
+    <Decal t0="7.04186" t1="-6.63874" t2="-3.59421" s0="0.623922" s1="0.623922" s2="0.623922" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1131" type_file="Data/Objects/Decals/water_froth.xml" color_r="0.207843" color_g="0.207841" color_b="0.207841" overbright="0">
+        <parameters />
+    </Decal>
     <DynamicLightObject name="Ano Light" t0="4.86166" t1="-5.78582" t2="6.49654" s0="1.82859" s1="1.82859" s2="1.82859" q0="0" q1="0" q2="0" q3="1" euler_x="0" euler_y="0" euler_z="0" id="1148" color_r="0.294118" color_g="0.200692" color_b="0.284226" overbright="0">
         <parameters />
     </DynamicLightObject>
@@ -5641,7 +5647,8 @@
     <SpawnerItem display_name="commander.xml" path="Prefabs/commander.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="bijou_fine.xml" path="Prefabs/bijou_fine.xml" thumbnail_path="empty_placeholder.png" />
     <SpawnerItem display_name="Rope" path="Data/Objects/Buildings/RopeBall1.xml" thumbnail_path="Data/UI/spawner/thumbs/Object/rope.png" />
-    <SpawnerItem display_name="Ambient Shadow (round)" path="Data/Objects/default_env_blob_shadow_decal.xml" thumbnail_path="" />
     <SpawnerItem display_name="Light Decal (round)" path="Data/Objects/Decals/light_round.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
     <SpawnerItem display_name="Light Decal (square)" path="Data/Objects/Decals/light_square.xml" thumbnail_path="Data/UI/spawner/thumbs/Hotspot/water.png" />
+    <SpawnerItem display_name="Ambient Shadow (round)" path="Data/Objects/default_env_blob_shadow_decal.xml" thumbnail_path="" />
+    <SpawnerItem display_name="Water Froth" path="Data/Objects/Decals/water_froth.xml" thumbnail_path="" />
 </RecentItems>
