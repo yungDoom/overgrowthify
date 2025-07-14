@@ -1,7 +1,3 @@
-# Scar of Ouruin
-This is the incomplete build for Scar of Ouruin, Overgrowth's next expansion and content update. Stability, finish and polish is not guaranteed.
-Below is the default Overgrowth readme.
-
 # Overgrowth
 This is the official repository for [Overgrowth]'s source code. Only the code is available here; the game data (such as art assets and levels) can only be legally obtained by purchasing Overgrowth from [Wolfire Games].
 
